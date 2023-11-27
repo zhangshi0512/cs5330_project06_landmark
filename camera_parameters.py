@@ -9,9 +9,14 @@ def load_camera_parameters(filename):
     with open(filename, 'r') as file:
         reader = csv.reader(file)
         for row in reader:
-            image, *params = row
-            camera_params[image] = np.array(
-                params, dtype=np.float).reshape(3, 2)
+            if len(row) != 7:
+                print(f"Skipping invalid row: {row}")
+                continue
+            image, rvec1, rvec2, rvec3, tvec1, tvec2, tvec3 = row
+            camera_params[image] = np.array([
+                [float(rvec1), float(rvec2), float(rvec3)],
+                [float(tvec1), float(tvec2), float(tvec3)]
+            ])
     return camera_params
 
 
