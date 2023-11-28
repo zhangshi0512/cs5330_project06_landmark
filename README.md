@@ -98,3 +98,21 @@ Then run following commands
 pip install opencv-python numpy scipy matplotlib
 pip install open3d
 ```
+
+### Project Running
+
+#### Task 1
+
+Run preprocess.py, it should go through image files in a sub-folder under 'images' folder and convert each image to the same size grayscale images saved under a sub-folder under 'preprocessed_images' folder.
+
+#### Task 2
+
+Run feature_matching.py, it should load images from 'preprocessed_images' folder, implement feature detection algorithms to find key points in images, then save the image features as a csv file, like 'feature_matches.csv'.
+
+#### Task 3
+
+Run camera_parameters_estimation.py, it should first read features from the 'feature_matches.csv', and estimate the camera parameters and pose for each image, and save the camera parameters as a csv file, like 'camera_parameters.csv'.
+
+#### Task 4 - 6
+
+Run reconstruction_visualization.py, it should load camera parameters and feature matches, triangulate points, then create and visualize the point cloud.
