@@ -24,19 +24,40 @@ def load_feature_matches(csv_file):
 
 def estimate_camera_parameters(matches, intrinsic_parameters):
     camera_params = {}
+
     for (image1, image2), match_points in matches.items():
-        # Assuming all points lie on a plane with Z=0
         object_points = np.array(
             [[x, y, 0] for x, y, _, _ in match_points], dtype=np.float32)
         image_points = np.array(
             [[x, y] for _, _, x, y in match_points], dtype=np.float32)
 
-        # Estimating pose
+        # RANSAC
+        _, rvec, tvec, inliers = cv2.solvePnPRansac(
+            object_points, image_points, intrinsic_parameters, None)
+
+        # RANSAC refinement
+        # Choose a threshold for the minimum inliers
+        if inliers is None or len(inliers) < 5:
+            print(
+                f"Not enough inliers for image pair: {image1} - {image2}. Skipping.")
+            continue
+
+        # Refine using inliers
+        object_points = object_points[inliers]
+        image_points = image_points[inliers]
         _, rvec, tvec = cv2.solvePnP(
             object_points, image_points, intrinsic_parameters, None)
 
-        camera_params[image1] = {'rvec': rvec, 'tvec': tvec}
-        camera_params[image2] = {'rvec': rvec, 'tvec': tvec}
+        # Reprojection error
+        proj_points, _ = cv2.projectPoints(
+            object_points, rvec, tvec, intrinsic_parameters, None)
+        error = np.mean(np.linalg.norm(proj_points - image_points, axis=1))
+
+        # Rotation matrix and translation vector
+        r_mat, _ = cv2.Rodrigues(rvec)
+
+        camera_params[image1] = {'r_mat': r_mat, 'tvec': tvec.reshape(-1, 1)}
+        camera_params[image2] = {'r_mat': r_mat, 'tvec': tvec.reshape(-1, 1)}
 
     return camera_params
 
@@ -44,7 +65,8 @@ def estimate_camera_parameters(matches, intrinsic_parameters):
 def save_camera_params_to_file(camera_params, filename):
     with open(filename, 'w') as file:
         for image, params in camera_params.items():
-            rvec, tvec = params['rvec'], params['tvec']
+            r_mat, tvec = params['r_mat'], params['tvec']
+            rvec, _ = cv2.Rodrigues(r_mat)
             file.write(
                 f"{image},{rvec[0][0]},{rvec[1][0]},{rvec[2][0]},{tvec[0][0]},{tvec[1][0]},{tvec[2][0]}\n")
 
@@ -53,9 +75,9 @@ def main():
     csv_file = 'feature_matches.csv'
     matches = load_feature_matches(csv_file)
 
-    # Example intrinsic parameters
-    focal_length = 1.0
-    principal_point = (0.5, 0.5)
+    # Approximated intrinsic parameters
+    focal_length = w  # use the width of the image from the feature_matching.py
+    principal_point = (w / 2, h / 2)
     intrinsic_parameters = np.array([[focal_length, 0, principal_point[0]],
                                      [0, focal_length, principal_point[1]],
                                      [0, 0, 1]])

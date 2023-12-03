@@ -41,9 +41,13 @@ def triangulate_points(matches, camera_params):
         # Append these points to the list
         points_3d.append(pts_3d_hom[:3].T)
 
-    # Combine all 3D points from all image pairs
-    points_3d = np.vstack(points_3d)
-    return points_3d
+    # Validation check for 3D points
+    valid_points = []
+    for pt in points_3d:
+        if not np.any(np.isnan(pt)) and not np.any(np.isinf(pt)):
+            valid_points.append(pt)
+
+    return np.array(valid_points)
 
 
 def create_point_cloud(points):
@@ -53,6 +57,12 @@ def create_point_cloud(points):
 
 
 def visualize_point_cloud(point_cloud):
+    # Remove outliers
+    point_cloud = point_cloud.voxel_down_sample(voxel_size=0.02)
+    cl, ind = point_cloud.remove_statistical_outlier(
+        nb_neighbors=20, std_ratio=2.0)
+    point_cloud = point_cloud.select_by_index(ind)
+
     o3d.visualization.draw_geometries([point_cloud])
 
 

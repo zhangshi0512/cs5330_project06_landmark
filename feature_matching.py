@@ -5,25 +5,48 @@
 import cv2
 import os
 import csv
+import matplotlib.pyplot as plt
+
+# Initialize SIFT detector
+sift = cv2.SIFT_create()
 
 
-def detect_and_match_features(image1, image2):
-    # Initialize SIFT detector
-    sift = cv2.SIFT_create()
-
-    # Detect and compute keypoints and descriptors
+def detect_and_match_features(image1, image2, sift):
+    # Detect and compute keypoints and descriptors with SIFT
     keypoints1, descriptors1 = sift.detectAndCompute(image1, None)
     keypoints2, descriptors2 = sift.detectAndCompute(image2, None)
 
-    # Feature matching
-    matcher = cv2.BFMatcher()
-    matches = matcher.knnMatch(descriptors1, descriptors2, k=2)
+    # Check if SIFT found descriptors
+    if descriptors1 is None or descriptors2 is None:
+        print(f"Not enough features in one of the images. Skipping this pair.")
+        return [], [], []
 
-    # Apply ratio test and store good matches
+    # FLANN-based matcher parameters
+    FLANN_INDEX_KDTREE = 1
+    index_params = dict(algorithm=FLANN_INDEX_KDTREE, trees=5)
+    search_params = dict(checks=50)
+    flann = cv2.FlannBasedMatcher(index_params, search_params)
+
+    # Matching descriptor vectors using FLANN matcher
+    matches = flann.knnMatch(descriptors1, descriptors2, k=2)
+
+    # Store all good matches as per Lowe's ratio test.
     good_matches = []
     for m, n in matches:
-        if m.distance < 0.75 * n.distance:
+        if m.distance < 0.7*n.distance:
             good_matches.append(m)
+
+    # Draw top matches
+    img_matches = cv2.drawMatches(image1, keypoints1, image2, keypoints2,
+                                  good_matches, None, flags=cv2.DrawMatchesFlags_NOT_DRAW_SINGLE_POINTS)
+
+    # Show detected matches
+    plt.figure(figsize=(12, 6))
+    plt.imshow(img_matches)
+    plt.title('Feature Matches')
+    plt.axis('off')
+    plt.show()
+
     return good_matches, keypoints1, keypoints2
 
 
@@ -40,11 +63,13 @@ def main():
     folder_path = 'preprocessed_images/blain_house/'
     images = load_images_from_folder(folder_path)
 
-    # Prepare to save matches
-    matches_file = open('feature_matches.csv', 'w', newline='')
-    csv_writer = csv.writer(matches_file)
-    csv_writer.writerow(['Image1', 'Image2', 'KeyPoint1_X',
-                        'KeyPoint1_Y', 'KeyPoint2_X', 'KeyPoint2_Y'])
+    # Extract image dimensions for intrinsic parameters approximation
+    sample_image_path = os.path.join(folder_path, images[0][0])
+    sample_image = cv2.imread(sample_image_path)
+    h, w = sample_image.shape[:2]
+    focal_length = w  # Approximate focal length
+
+    all_matches = []  # Initialize the list to store all matches
 
     # Perform feature matching between all pairs of images
     for i in range(len(images)):
@@ -52,16 +77,21 @@ def main():
             image1_name, image1 = images[i]
             image2_name, image2 = images[j]
             matches, keypoints1, keypoints2 = detect_and_match_features(
-                image1, image2)
+                image1, image2, sift)
 
-            # Write match details to CSV
+            # Process matches and store them in all_matches
             for match in matches:
                 pt1 = keypoints1[match.queryIdx].pt
                 pt2 = keypoints2[match.trainIdx].pt
-                csv_writer.writerow(
+                all_matches.append(
                     [image1_name, image2_name, pt1[0], pt1[1], pt2[0], pt2[1]])
 
-    matches_file.close()
+    # Write all matches to CSV at once
+    with open('feature_matches.csv', 'w', newline='') as matches_file:
+        csv_writer = csv.writer(matches_file)
+        csv_writer.writerow(['Image1', 'Image2', 'KeyPoint1_X',
+                            'KeyPoint1_Y', 'KeyPoint2_X', 'KeyPoint2_Y'])
+        csv_writer.writerows(all_matches)
 
 
 if __name__ == '__main__':
