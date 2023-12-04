@@ -82,6 +82,12 @@ This project aims to reconstruct 3D scenes from a collection of 2D images. It in
 
 [Optimization of Rank Losses for Image Retrieval, Elias Ramzi, Nicolas Audebert, Clément Rambour, André Araujo, Xavier Bitot, Nicolas Thome](https://arxiv.org/abs/2309.08250)
 
+[Project: Camera Rectification and Structure from Motion, CIS 580, Machine Perception, Spring 2017](https://www.cis.upenn.edu/~cis580/Spring2017/Projects/project2/CIS580_Project2_v3.pdf)
+
+[3D Reconstruction from Multiple Images, Shawn McCann](https://cvgl.stanford.edu/teaching/cs231a_winter1415/prev/projects/CS231a-FinalReport-sgmccann.pdf)
+
+[Structure from Motion, A demo using the tools in the MATLAB Computer Vision toolbox](https://cs-courses.mines.edu/csci508/schedule/10/SfMDemo.pdf)
+
 ## Project Running Instructions
 
 ### Project Setup
