@@ -7,8 +7,8 @@ from camera_parameters import load_camera_parameters, load_feature_matches
 
 
 def triangulate_points(matches, camera_params):
-    # Initialize a list to store 3D points
-    points_3d = []
+    # Initialize a list to store arrays of 3D points for each image pair
+    all_points_3d = []
 
     # Convert rotation and translation vectors to camera matrices
     camera_matrices = {}
@@ -36,30 +36,38 @@ def triangulate_points(matches, camera_params):
         # Triangulate points
         pts_4d_hom = cv2.triangulatePoints(P1, P2, pts1, pts2)
         # Convert to Euclidean coordinates
-        pts_3d_hom = pts_4d_hom / pts_4d_hom[3]
+        # pts_3d_hom = pts_4d_hom / pts_4d_hom[3]
+        pts_3d_hom = pts_4d_hom / np.array(pts_4d_hom[3])
 
         # Append these points to the list
-        points_3d.append(pts_3d_hom[:3].T)
+        all_points_3d.append(pts_3d_hom[:3].T)
 
-    # Validation check for 3D points
-    valid_points = []
-    for pt in points_3d:
-        if not np.any(np.isnan(pt)) and not np.any(np.isinf(pt)):
-            valid_points.append(pt)
+    # Aggregate all 3D points from each image pair
+    if all_points_3d:
+        points_3d = np.concatenate(all_points_3d, axis=0)
+    else:
+        points_3d = np.empty((0, 3))
 
-    return np.array(valid_points)
+    # Filter valid points (remove NaNs and infinites)
+    valid_points = points_3d[~np.isnan(points_3d).any(
+        axis=1) & ~np.isinf(points_3d).any(axis=1)]
+
+    return valid_points
 
 
 def create_point_cloud(points):
     point_cloud = o3d.geometry.PointCloud()
-    point_cloud.points = o3d.utility.Vector3dVector(points)
+    if points.size > 0:
+        point_cloud.points = o3d.utility.Vector3dVector(points)
     return point_cloud
 
 
 def visualize_point_cloud(point_cloud):
     # Remove outliers
-    point_cloud = point_cloud.voxel_down_sample(voxel_size=0.02)
-    cl, ind = point_cloud.remove_statistical_outlier(
+    # point_cloud = point_cloud.voxel_down_sample(voxel_size=0.02)
+    # cl, ind = point_cloud.remove_statistical_outlier(
+    #    nb_neighbors=20, std_ratio=2.0)
+    point_cloud, ind = point_cloud.remove_statistical_outlier(
         nb_neighbors=20, std_ratio=2.0)
     point_cloud = point_cloud.select_by_index(ind)
 
@@ -70,11 +78,14 @@ def main():
     camera_params_file = 'camera_parameters.csv'
     feature_matches_file = 'feature_matches.csv'
 
-    # Load camera parameters and feature matches
+    # Load camera parameters
     camera_params = load_camera_parameters(camera_params_file)
-    matches = load_feature_matches(feature_matches_file)
 
-    # Triangulate points (this function needs to be implemented)
+    # Load feature matches and dimensions (if needed)
+    matches, dimensions = load_feature_matches(
+        feature_matches_file)  # Unpack the tuple correctly
+
+    # Triangulate points
     points = triangulate_points(matches, camera_params)
 
     # Create and visualize the point cloud

@@ -10,16 +10,20 @@ import os
 
 def load_feature_matches(csv_file):
     matches = {}
+    dimensions = {}
     with open(csv_file, 'r') as file:
         reader = csv.reader(file)
         next(reader)  # Skip the header
         for row in reader:
-            image1, image2, x1, y1, x2, y2 = row
+            # Unpack all values from each row
+            image1, image2, x1, y1, x2, y2, w1, h1, w2, h2 = row
             if (image1, image2) not in matches:
                 matches[(image1, image2)] = []
+                dimensions[image1] = (float(w1), float(h1))
+                dimensions[image2] = (float(w2), float(h2))
             matches[(image1, image2)].append(
                 (float(x1), float(y1), float(x2), float(y2)))
-    return matches
+    return matches, dimensions
 
 
 def estimate_camera_parameters(matches, intrinsic_parameters):
@@ -73,17 +77,31 @@ def save_camera_params_to_file(camera_params, filename):
 
 def main():
     csv_file = 'feature_matches.csv'
-    matches = load_feature_matches(csv_file)
+    matches, dimensions = load_feature_matches(csv_file)
 
-    # Approximated intrinsic parameters
-    focal_length = w  # use the width of the image from the feature_matching.py
-    principal_point = (w / 2, h / 2)
-    intrinsic_parameters = np.array([[focal_length, 0, principal_point[0]],
-                                     [0, focal_length, principal_point[1]],
-                                     [0, 0, 1]])
+    camera_params = {}
 
-    # Estimate camera parameters
-    camera_params = estimate_camera_parameters(matches, intrinsic_parameters)
+    for (image1, image2), match_points in matches.items():
+        w1, h1 = dimensions[image1]
+        w2, h2 = dimensions[image2]
+
+        # Use the average of the dimensions from both images
+        avg_width = (w1 + w2) / 2
+        avg_height = (h1 + h2) / 2
+
+        # Approximate focal length using the width of the image
+        focal_length = avg_width
+        principal_point = (avg_width / 2, avg_height / 2)
+        intrinsic_parameters = np.array([[focal_length, 0, principal_point[0]],
+                                         [0, focal_length, principal_point[1]],
+                                         [0, 0, 1]])
+
+        # Estimate camera parameters for each pair
+        camera_params_pair = estimate_camera_parameters(
+            {(image1, image2): match_points}, intrinsic_parameters)
+
+        # Update overall camera parameters
+        camera_params.update(camera_params_pair)
 
     # Save camera parameters to a file
     camera_params_file = 'camera_parameters.csv'

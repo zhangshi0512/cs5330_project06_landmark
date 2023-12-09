@@ -22,13 +22,17 @@ def load_camera_parameters(filename):
 
 def load_feature_matches(csv_file):
     matches = {}
+    dimensions = {}
     with open(csv_file, 'r') as file:
         reader = csv.reader(file)
         next(reader)  # Skip the header
         for row in reader:
-            image1, image2, x1, y1, x2, y2 = row
+            print(row)
+            image1, image2, x1, y1, x2, y2, w1, h1, w2, h2 = row
             if (image1, image2) not in matches:
                 matches[(image1, image2)] = []
+                dimensions[image1] = (float(w1), float(h1))
+                dimensions[image2] = (float(w2), float(h2))
             matches[(image1, image2)].append(
                 (float(x1), float(y1), float(x2), float(y2)))
-    return matches
+    return matches, dimensions

@@ -7,10 +7,22 @@ import os
 import cv2
 import numpy as np
 
+
 def preprocess_image(image):
-    resized_image = cv2.resize(image, (800, 600))  # Resize for uniformity
-    gray_image = cv2.cvtColor(resized_image, cv2.COLOR_BGR2GRAY)  # Convert to grayscale
+    # Compute new dimensions while preserving aspect ratio
+    height, width = image.shape[:2]
+    aspect_ratio = width / height
+    new_width = int(800)
+    new_height = int(new_width / aspect_ratio)
+
+    resized_image = cv2.resize(image, (new_width, new_height))
+    gray_image = cv2.cvtColor(resized_image, cv2.COLOR_BGR2GRAY)
+
+    # Optionally apply histogram equalization
+    # gray_image = cv2.equalizeHist(gray_image)
+
     return gray_image
+
 
 def process_images_in_folder(folder_path, output_folder=None):
     print(f"Processing images in folder: {folder_path}")
@@ -32,8 +44,7 @@ def process_images_in_folder(folder_path, output_folder=None):
             cv2.waitKey(0)
             cv2.destroyAllWindows()
 
+
 if __name__ == '__main__':
-    process_images_in_folder('images/blaine_house/', 'preprocessed_images/blain_house/')
-
-
-
+    process_images_in_folder('images/basketball/',
+                             'preprocessed_images/basketball/')
