@@ -1,0 +1,630 @@
+Found 11037 and 11183 keypoints in the images respectively.
+Found 11037 raw matches.
+Match 0: Distance 1 - 385.2622375488281, Distance 2 - 389.59722900390625
+Match 1: Distance 1 - 304.6571960449219, Distance 2 - 358.03631591796875
+Match 2: Distance 1 - 324.55352783203125, Distance 2 - 330.7960205078125
+Match 3: Distance 1 - 312.8545837402344, Distance 2 - 323.5799865722656 
+Match 4: Distance 1 - 340.7154235839844, Distance 2 - 383.6925964355469 
+Match 5: Distance 1 - 311.9855651855469, Distance 2 - 321.1308288574219 
+Match 6: Distance 1 - 324.04937744140625, Distance 2 - 325.0615234375   
+Match 7: Distance 1 - 304.76220703125, Distance 2 - 328.3686828613281   
+Match 8: Distance 1 - 338.88494873046875, Distance 2 - 351.4043273925781
+Match 9: Distance 1 - 327.5576171875, Distance 2 - 343.9956359863281    
+Match 10: Distance 1 - 295.1982421875, Distance 2 - 321.87884521484375  
+10 matches passed Lowe's ratio test.
+Found 11037 and 7135 keypoints in the images respectively.
+Found 11037 raw matches.
+Match 0: Distance 1 - 340.25579833984375, Distance 2 - 357.773681640625
+Match 1: Distance 1 - 339.1430358886719, Distance 2 - 339.2388610839844
+Match 2: Distance 1 - 326.889892578125, Distance 2 - 335.3729248046875
+Match 3: Distance 1 - 330.8987731933594, Distance 2 - 333.74542236328125
+Match 4: Distance 1 - 360.7727966308594, Distance 2 - 365.73760986328125
+Match 5: Distance 1 - 309.52545166015625, Distance 2 - 321.65509033203125
+Match 6: Distance 1 - 356.88372802734375, Distance 2 - 356.96917724609375
+Match 7: Distance 1 - 348.68609619140625, Distance 2 - 360.38311767578125
+Match 8: Distance 1 - 334.7028503417969, Distance 2 - 359.2742614746094
+Match 9: Distance 1 - 370.48345947265625, Distance 2 - 375.04400634765625
+Match 10: Distance 1 - 344.5475158691406, Distance 2 - 353.27325439453125
+15 matches passed Lowe's ratio test.
+Found 11037 and 5347 keypoints in the images respectively.
+Found 11037 raw matches.
+Match 0: Distance 1 - 376.2060546875, Distance 2 - 396.6837463378906
+Match 1: Distance 1 - 324.13885498046875, Distance 2 - 327.6781921386719
+Match 2: Distance 1 - 276.8699951171875, Distance 2 - 320.52301025390625
+Match 3: Distance 1 - 328.939208984375, Distance 2 - 339.2019958496094
+Match 4: Distance 1 - 355.5010681152344, Distance 2 - 372.1142272949219
+Match 5: Distance 1 - 325.65625, Distance 2 - 361.9088134765625
+Match 6: Distance 1 - 366.0095520019531, Distance 2 - 368.751953125
+Match 7: Distance 1 - 311.44342041015625, Distance 2 - 340.5642395019531
+Match 8: Distance 1 - 358.7171630859375, Distance 2 - 371.08892822265625
+Match 9: Distance 1 - 375.9335021972656, Distance 2 - 376.265869140625
+Match 10: Distance 1 - 345.7557067871094, Distance 2 - 368.35986328125
+8 matches passed Lowe's ratio test.
+Found 11037 and 11664 keypoints in the images respectively.
+Found 11037 raw matches.
+Match 0: Distance 1 - 354.40936279296875, Distance 2 - 354.5165710449219
+Match 1: Distance 1 - 320.25146484375, Distance 2 - 372.36004638671875
+Match 2: Distance 1 - 306.3396911621094, Distance 2 - 307.6556396484375
+Match 3: Distance 1 - 316.7664794921875, Distance 2 - 320.0484313964844
+Match 4: Distance 1 - 363.40887451171875, Distance 2 - 380.4694519042969
+Match 5: Distance 1 - 308.7830810546875, Distance 2 - 313.96337890625
+Match 6: Distance 1 - 280.374755859375, Distance 2 - 320.3997497558594
+Match 7: Distance 1 - 308.0340881347656, Distance 2 - 351.5081787109375
+Match 8: Distance 1 - 341.855224609375, Distance 2 - 357.6199035644531
+Match 9: Distance 1 - 338.7904968261719, Distance 2 - 339.70721435546875
+Match 10: Distance 1 - 312.9760437011719, Distance 2 - 326.79046630859375
+9 matches passed Lowe's ratio test.
+Found 11037 and 6730 keypoints in the images respectively.
+Found 11037 raw matches.
+Match 0: Distance 1 - 324.8753662109375, Distance 2 - 341.6181945800781
+Match 1: Distance 1 - 327.2965087890625, Distance 2 - 329.0045471191406
+Match 2: Distance 1 - 326.5838317871094, Distance 2 - 326.8975524902344
+Match 3: Distance 1 - 319.9281311035156, Distance 2 - 347.0662841796875
+Match 4: Distance 1 - 361.8121032714844, Distance 2 - 387.4506530761719
+Match 5: Distance 1 - 324.5627746582031, Distance 2 - 337.3692321777344
+Match 6: Distance 1 - 346.4996337890625, Distance 2 - 353.45013427734375
+Match 7: Distance 1 - 357.7247619628906, Distance 2 - 372.1612548828125
+Match 8: Distance 1 - 368.57562255859375, Distance 2 - 375.31719970703125
+Match 9: Distance 1 - 352.46417236328125, Distance 2 - 369.2059020996094
+Match 10: Distance 1 - 313.0814514160156, Distance 2 - 328.4021911621094
+9 matches passed Lowe's ratio test.
+Found 11037 and 10151 keypoints in the images respectively.
+Found 11037 raw matches.
+Match 0: Distance 1 - 325.3628845214844, Distance 2 - 342.6324462890625
+Match 1: Distance 1 - 327.1314697265625, Distance 2 - 339.14007568359375
+Match 2: Distance 1 - 294.6370544433594, Distance 2 - 309.5513000488281
+Match 3: Distance 1 - 338.5557556152344, Distance 2 - 340.3175048828125
+Match 4: Distance 1 - 362.34100341796875, Distance 2 - 385.0921936035156
+Match 5: Distance 1 - 321.6939392089844, Distance 2 - 338.56756591796875
+Match 6: Distance 1 - 333.77386474609375, Distance 2 - 343.9665832519531
+Match 7: Distance 1 - 335.9940490722656, Distance 2 - 347.05474853515625
+Match 8: Distance 1 - 314.36444091796875, Distance 2 - 348.2743225097656
+Match 9: Distance 1 - 358.3448181152344, Distance 2 - 361.6877136230469
+Match 10: Distance 1 - 292.6926574707031, Distance 2 - 336.86199951171875
+14 matches passed Lowe's ratio test.
+Found 11037 and 11893 keypoints in the images respectively.
+Found 11037 raw matches.
+Match 0: Distance 1 - 329.4495544433594, Distance 2 - 331.6097106933594
+Match 1: Distance 1 - 340.93255615234375, Distance 2 - 358.56658935546875
+Match 2: Distance 1 - 303.6725158691406, Distance 2 - 325.2060852050781
+Match 3: Distance 1 - 294.90338134765625, Distance 2 - 306.7833251953125
+Match 4: Distance 1 - 374.40753173828125, Distance 2 - 375.00933837890625
+Match 5: Distance 1 - 343.17926025390625, Distance 2 - 344.486572265625
+Match 6: Distance 1 - 282.4039611816406, Distance 2 - 301.01495361328125
+Match 7: Distance 1 - 276.8591613769531, Distance 2 - 322.7599792480469
+Match 8: Distance 1 - 303.4237976074219, Distance 2 - 364.8369445800781
+Match 9: Distance 1 - 302.5343017578125, Distance 2 - 335.10595703125
+Match 10: Distance 1 - 335.6083984375, Distance 2 - 346.427490234375
+6 matches passed Lowe's ratio test.
+Found 11037 and 14606 keypoints in the images respectively.
+Found 11037 raw matches.
+Match 0: Distance 1 - 300.8720703125, Distance 2 - 333.8277893066406
+Match 1: Distance 1 - 342.58282470703125, Distance 2 - 351.8153076171875
+Match 2: Distance 1 - 259.3626708984375, Distance 2 - 268.1268310546875
+Match 3: Distance 1 - 290.203369140625, Distance 2 - 304.74578857421875
+Match 4: Distance 1 - 364.8725891113281, Distance 2 - 368.56884765625
+Match 5: Distance 1 - 317.2680358886719, Distance 2 - 325.5994567871094
+Match 6: Distance 1 - 307.4817199707031, Distance 2 - 310.860107421875
+Match 7: Distance 1 - 336.5159606933594, Distance 2 - 338.54541015625
+Match 8: Distance 1 - 346.0794677734375, Distance 2 - 352.9079284667969
+Match 9: Distance 1 - 294.80841064453125, Distance 2 - 341.4454650878906
+Match 10: Distance 1 - 313.5633850097656, Distance 2 - 326.0291442871094
+16 matches passed Lowe's ratio test.
+Found 11037 and 9372 keypoints in the images respectively.
+Found 11037 raw matches.
+Match 0: Distance 1 - 335.6307373046875, Distance 2 - 340.18817138671875
+Match 1: Distance 1 - 316.4743347167969, Distance 2 - 360.2679443359375
+Match 2: Distance 1 - 342.55218505859375, Distance 2 - 347.2995910644531
+Match 3: Distance 1 - 332.2589416503906, Distance 2 - 339.75726318359375
+Match 4: Distance 1 - 359.8930358886719, Distance 2 - 391.7779846191406
+Match 5: Distance 1 - 294.5657958984375, Distance 2 - 326.77056884765625
+Match 6: Distance 1 - 351.111083984375, Distance 2 - 351.8991394042969
+Match 7: Distance 1 - 332.11444091796875, Distance 2 - 352.7350158691406
+Match 8: Distance 1 - 289.4632873535156, Distance 2 - 317.5248107910156
+Match 9: Distance 1 - 360.6286315917969, Distance 2 - 377.78302001953125
+Match 10: Distance 1 - 290.5804443359375, Distance 2 - 305.8103942871094
+11 matches passed Lowe's ratio test.
+Found 11183 and 7135 keypoints in the images respectively.
+Found 11183 raw matches.
+Match 0: Distance 1 - 326.33111572265625, Distance 2 - 341.1466064453125
+Match 1: Distance 1 - 372.7076721191406, Distance 2 - 391.0089416503906
+Match 2: Distance 1 - 345.5604248046875, Distance 2 - 350.274169921875
+Match 3: Distance 1 - 372.30499267578125, Distance 2 - 383.24664306640625
+Match 4: Distance 1 - 288.2169189453125, Distance 2 - 313.1117858886719
+Match 5: Distance 1 - 307.6020202636719, Distance 2 - 356.70574951171875
+Match 6: Distance 1 - 349.0916748046875, Distance 2 - 358.08380126953125
+Match 7: Distance 1 - 322.41278076171875, Distance 2 - 369.1896667480469
+Match 8: Distance 1 - 360.9764404296875, Distance 2 - 368.52545166015625
+Match 9: Distance 1 - 367.896728515625, Distance 2 - 371.7216796875
+Match 10: Distance 1 - 176.99435424804688, Distance 2 - 179.7386932373047
+17 matches passed Lowe's ratio test.
+Found 11183 and 5347 keypoints in the images respectively.
+Found 11183 raw matches.
+Match 0: Distance 1 - 356.58099365234375, Distance 2 - 361.4816589355469
+Match 1: Distance 1 - 343.4967346191406, Distance 2 - 350.78912353515625
+Match 2: Distance 1 - 352.1278076171875, Distance 2 - 357.0434265136719
+Match 3: Distance 1 - 377.3406982421875, Distance 2 - 390.22686767578125
+Match 4: Distance 1 - 298.6737365722656, Distance 2 - 325.8695983886719
+Match 5: Distance 1 - 383.1788024902344, Distance 2 - 386.3418273925781
+Match 6: Distance 1 - 355.90447998046875, Distance 2 - 364.4681091308594
+Match 7: Distance 1 - 361.8245544433594, Distance 2 - 375.3704833984375
+Match 8: Distance 1 - 340.4012451171875, Distance 2 - 350.4825134277344
+Match 9: Distance 1 - 367.1620788574219, Distance 2 - 369.33587646484375
+Match 10: Distance 1 - 169.36056518554688, Distance 2 - 174.0
+38 matches passed Lowe's ratio test.
+Found 11183 and 11664 keypoints in the images respectively.
+Found 11183 raw matches.
+Match 0: Distance 1 - 334.80889892578125, Distance 2 - 358.47314453125
+Match 1: Distance 1 - 329.9939270019531, Distance 2 - 349.4524230957031
+Match 2: Distance 1 - 332.5191650390625, Distance 2 - 337.1631774902344
+Match 3: Distance 1 - 319.53717041015625, Distance 2 - 362.5051574707031
+Match 4: Distance 1 - 319.5121154785156, Distance 2 - 320.8145751953125
+Match 5: Distance 1 - 358.7506103515625, Distance 2 - 372.8082580566406
+Match 6: Distance 1 - 331.4950866699219, Distance 2 - 341.4410705566406
+Match 7: Distance 1 - 342.2747497558594, Distance 2 - 370.0432434082031
+Match 8: Distance 1 - 304.3862609863281, Distance 2 - 318.68792724609375
+Match 9: Distance 1 - 336.3985595703125, Distance 2 - 378.43890380859375
+Match 10: Distance 1 - 179.1451873779297, Distance 2 - 180.75950622558594
+25 matches passed Lowe's ratio test.
+Found 11183 and 6730 keypoints in the images respectively.
+Found 11183 raw matches.
+Match 0: Distance 1 - 309.7902526855469, Distance 2 - 334.8686218261719
+Match 1: Distance 1 - 321.8943786621094, Distance 2 - 339.7410888671875
+Match 2: Distance 1 - 332.6409606933594, Distance 2 - 335.27154541015625
+Match 3: Distance 1 - 397.3449401855469, Distance 2 - 401.7275085449219
+Match 4: Distance 1 - 235.93006896972656, Distance 2 - 265.37896728515625
+Match 5: Distance 1 - 350.639404296875, Distance 2 - 359.5816955566406
+Match 6: Distance 1 - 334.0404052734375, Distance 2 - 353.4317321777344
+Match 7: Distance 1 - 340.9149475097656, Distance 2 - 348.5297546386719
+Match 8: Distance 1 - 326.43682861328125, Distance 2 - 328.95135498046875
+Match 9: Distance 1 - 357.5639953613281, Distance 2 - 366.7587890625
+Match 10: Distance 1 - 170.9795379638672, Distance 2 - 170.99122619628906
+8 matches passed Lowe's ratio test.
+Found 11183 and 10151 keypoints in the images respectively.
+Found 11183 raw matches.
+Match 0: Distance 1 - 322.12109375, Distance 2 - 322.6050109863281
+Match 1: Distance 1 - 312.5203857421875, Distance 2 - 326.4383544921875
+Match 2: Distance 1 - 328.4052429199219, Distance 2 - 345.2506408691406
+Match 3: Distance 1 - 363.1335754394531, Distance 2 - 368.73431396484375
+Match 4: Distance 1 - 296.0118103027344, Distance 2 - 300.3897399902344
+Match 5: Distance 1 - 353.9166564941406, Distance 2 - 362.8539733886719
+Match 6: Distance 1 - 343.7251892089844, Distance 2 - 352.6825866699219
+Match 7: Distance 1 - 333.4426574707031, Distance 2 - 354.9169006347656
+Match 8: Distance 1 - 368.8807373046875, Distance 2 - 370.844970703125
+Match 9: Distance 1 - 355.2646789550781, Distance 2 - 360.129150390625
+Match 10: Distance 1 - 188.46484375, Distance 2 - 188.56298828125
+10 matches passed Lowe's ratio test.
+Found 11183 and 11893 keypoints in the images respectively.
+Found 11183 raw matches.
+Match 0: Distance 1 - 309.0582580566406, Distance 2 - 345.93206787109375
+Match 1: Distance 1 - 352.8668212890625, Distance 2 - 353.6537780761719
+Match 2: Distance 1 - 298.17108154296875, Distance 2 - 304.5751037597656
+Match 3: Distance 1 - 360.6646728515625, Distance 2 - 370.73846435546875
+Match 4: Distance 1 - 312.00640869140625, Distance 2 - 312.14581298828125
+Match 5: Distance 1 - 346.8371276855469, Distance 2 - 359.57891845703125
+Match 6: Distance 1 - 322.56317138671875, Distance 2 - 345.07391357421875
+Match 7: Distance 1 - 282.4145812988281, Distance 2 - 323.9537048339844
+Match 8: Distance 1 - 331.1902770996094, Distance 2 - 343.9883728027344
+Match 9: Distance 1 - 353.97882080078125, Distance 2 - 367.7580871582031
+Match 10: Distance 1 - 203.641845703125, Distance 2 - 206.7510528564453
+4 matches passed Lowe's ratio test.
+Found 11183 and 14606 keypoints in the images respectively.
+Found 11183 raw matches.
+Match 0: Distance 1 - 309.806396484375, Distance 2 - 346.3249816894531
+Match 1: Distance 1 - 317.4035339355469, Distance 2 - 320.5604553222656
+Match 2: Distance 1 - 354.06072998046875, Distance 2 - 364.3199157714844
+Match 3: Distance 1 - 350.9700927734375, Distance 2 - 366.0983581542969
+Match 4: Distance 1 - 262.76605224609375, Distance 2 - 273.61285400390625
+Match 5: Distance 1 - 343.5505676269531, Distance 2 - 378.1891174316406
+Match 6: Distance 1 - 309.76605224609375, Distance 2 - 329.9014892578125
+Match 7: Distance 1 - 328.44024658203125, Distance 2 - 360.5260009765625
+Match 8: Distance 1 - 335.8437194824219, Distance 2 - 369.7255859375
+Match 9: Distance 1 - 341.7484436035156, Distance 2 - 348.1896057128906
+Match 10: Distance 1 - 190.7511444091797, Distance 2 - 192.83152770996094
+11 matches passed Lowe's ratio test.
+Found 11183 and 9372 keypoints in the images respectively.
+Found 11183 raw matches.
+Match 0: Distance 1 - 316.9747619628906, Distance 2 - 325.9217834472656
+Match 1: Distance 1 - 352.4400634765625, Distance 2 - 370.40924072265625
+Match 2: Distance 1 - 313.22357177734375, Distance 2 - 351.707275390625
+Match 3: Distance 1 - 351.42852783203125, Distance 2 - 361.6973876953125
+Match 4: Distance 1 - 325.19378662109375, Distance 2 - 327.1161804199219
+Match 5: Distance 1 - 363.26849365234375, Distance 2 - 384.5347900390625
+Match 6: Distance 1 - 321.3767395019531, Distance 2 - 341.96343994140625
+Match 7: Distance 1 - 323.0789489746094, Distance 2 - 329.0
+Match 8: Distance 1 - 347.2088623046875, Distance 2 - 357.31219482421875
+Match 9: Distance 1 - 360.1527404785156, Distance 2 - 384.9454650878906
+Match 10: Distance 1 - 165.42672729492188, Distance 2 - 179.5633544921875
+8 matches passed Lowe's ratio test.
+Found 7135 and 5347 keypoints in the images respectively.
+Found 7135 raw matches.
+Match 0: Distance 1 - 332.3507080078125, Distance 2 - 354.2315673828125
+Match 1: Distance 1 - 264.19879150390625, Distance 2 - 296.10809326171875
+Match 2: Distance 1 - 296.7658996582031, Distance 2 - 317.7577819824219
+Match 3: Distance 1 - 343.9520263671875, Distance 2 - 345.1680603027344
+Match 4: Distance 1 - 285.2945861816406, Distance 2 - 347.8807373046875
+Match 5: Distance 1 - 362.7216491699219, Distance 2 - 370.9150695800781
+Match 6: Distance 1 - 300.7407531738281, Distance 2 - 327.6278381347656
+Match 7: Distance 1 - 353.2789306640625, Distance 2 - 370.38897705078125
+Match 8: Distance 1 - 308.9061279296875, Distance 2 - 309.6433410644531
+Match 9: Distance 1 - 341.6430969238281, Distance 2 - 364.7327880859375
+Match 10: Distance 1 - 279.5871887207031, Distance 2 - 298.8778991699219
+63 matches passed Lowe's ratio test.
+Found 7135 and 11664 keypoints in the images respectively.
+Found 7135 raw matches.
+Match 0: Distance 1 - 320.9174499511719, Distance 2 - 343.2695617675781
+Match 1: Distance 1 - 309.88385009765625, Distance 2 - 330.88818359375
+Match 2: Distance 1 - 291.31427001953125, Distance 2 - 305.5699462890625
+Match 3: Distance 1 - 335.4698181152344, Distance 2 - 342.4938049316406
+Match 4: Distance 1 - 348.03448486328125, Distance 2 - 348.6344909667969
+Match 5: Distance 1 - 327.9466552734375, Distance 2 - 350.6993103027344
+Match 6: Distance 1 - 296.04730224609375, Distance 2 - 302.69622802734375
+Match 7: Distance 1 - 317.37200927734375, Distance 2 - 345.8193054199219
+Match 8: Distance 1 - 312.9872131347656, Distance 2 - 331.74237060546875
+Match 9: Distance 1 - 361.9530334472656, Distance 2 - 366.94140625
+Match 10: Distance 1 - 274.408447265625, Distance 2 - 296.5670166015625
+42 matches passed Lowe's ratio test.
+Found 7135 and 6730 keypoints in the images respectively.
+Found 7135 raw matches.
+Match 0: Distance 1 - 358.4075927734375, Distance 2 - 372.05914306640625
+Match 1: Distance 1 - 335.6098937988281, Distance 2 - 361.1786193847656
+Match 2: Distance 1 - 324.0694274902344, Distance 2 - 335.2267761230469
+Match 3: Distance 1 - 338.32086181640625, Distance 2 - 349.76849365234375
+Match 4: Distance 1 - 332.2499084472656, Distance 2 - 347.4550476074219
+Match 5: Distance 1 - 323.8379211425781, Distance 2 - 375.848388671875
+Match 6: Distance 1 - 359.3925476074219, Distance 2 - 360.9653625488281
+Match 7: Distance 1 - 296.3545227050781, Distance 2 - 332.6995544433594
+Match 8: Distance 1 - 305.93463134765625, Distance 2 - 306.6741027832031
+Match 9: Distance 1 - 347.09075927734375, Distance 2 - 347.439208984375
+Match 10: Distance 1 - 290.0120544433594, Distance 2 - 303.7532043457031
+29 matches passed Lowe's ratio test.
+Found 7135 and 10151 keypoints in the images respectively.
+Found 7135 raw matches.
+Match 0: Distance 1 - 335.5428466796875, Distance 2 - 354.1398010253906
+Match 1: Distance 1 - 319.540283203125, Distance 2 - 324.772216796875
+Match 2: Distance 1 - 317.9732666015625, Distance 2 - 336.6051025390625
+Match 3: Distance 1 - 285.07366943359375, Distance 2 - 356.85009765625
+Match 4: Distance 1 - 336.64520263671875, Distance 2 - 345.43450927734375
+Match 5: Distance 1 - 347.0317077636719, Distance 2 - 347.8951110839844
+Match 6: Distance 1 - 308.3131408691406, Distance 2 - 311.2008972167969
+Match 7: Distance 1 - 331.10723876953125, Distance 2 - 331.5629577636719
+Match 8: Distance 1 - 311.6311950683594, Distance 2 - 320.8909606933594
+Match 9: Distance 1 - 335.3028564453125, Distance 2 - 360.85455322265625
+Match 10: Distance 1 - 262.0019226074219, Distance 2 - 289.6394348144531
+21 matches passed Lowe's ratio test.
+Found 7135 and 11893 keypoints in the images respectively.
+Found 7135 raw matches.
+Match 0: Distance 1 - 313.0047912597656, Distance 2 - 336.756591796875
+Match 1: Distance 1 - 307.9934997558594, Distance 2 - 324.2036437988281
+Match 2: Distance 1 - 320.3763427734375, Distance 2 - 322.697998046875
+Match 3: Distance 1 - 300.8238830566406, Distance 2 - 306.9185485839844
+Match 4: Distance 1 - 343.7208251953125, Distance 2 - 343.7309875488281
+Match 5: Distance 1 - 354.4403991699219, Distance 2 - 354.8929443359375
+Match 6: Distance 1 - 318.59222412109375, Distance 2 - 319.824951171875
+Match 7: Distance 1 - 317.1750183105469, Distance 2 - 317.23651123046875
+Match 8: Distance 1 - 205.2681121826172, Distance 2 - 286.403564453125
+Match 9: Distance 1 - 333.6225280761719, Distance 2 - 362.13946533203125
+Match 10: Distance 1 - 286.15728759765625, Distance 2 - 295.83441162109375
+11 matches passed Lowe's ratio test.
+Found 7135 and 14606 keypoints in the images respectively.
+Found 7135 raw matches.
+Match 0: Distance 1 - 312.4772033691406, Distance 2 - 339.7499084472656
+Match 1: Distance 1 - 307.21490478515625, Distance 2 - 336.6927490234375
+Match 2: Distance 1 - 298.2113342285156, Distance 2 - 302.8002624511719
+Match 3: Distance 1 - 329.58154296875, Distance 2 - 344.2702331542969
+Match 4: Distance 1 - 329.6391906738281, Distance 2 - 350.4468688964844
+Match 5: Distance 1 - 332.8257751464844, Distance 2 - 346.7924499511719
+Match 6: Distance 1 - 310.1015930175781, Distance 2 - 318.87615966796875
+Match 7: Distance 1 - 335.8824157714844, Distance 2 - 340.7286376953125
+Match 8: Distance 1 - 296.81982421875, Distance 2 - 312.8258361816406
+Match 9: Distance 1 - 344.6186218261719, Distance 2 - 356.6581115722656
+Match 10: Distance 1 - 292.94537353515625, Distance 2 - 302.9851379394531
+18 matches passed Lowe's ratio test.
+Found 7135 and 9372 keypoints in the images respectively.
+Found 7135 raw matches.
+Match 0: Distance 1 - 345.30419921875, Distance 2 - 366.7764892578125
+Match 1: Distance 1 - 328.0396423339844, Distance 2 - 349.0472717285156
+Match 2: Distance 1 - 343.233154296875, Distance 2 - 344.0159912109375
+Match 3: Distance 1 - 352.20166015625, Distance 2 - 356.97760009765625
+Match 4: Distance 1 - 343.700439453125, Distance 2 - 351.3459777832031
+Match 5: Distance 1 - 349.2892761230469, Distance 2 - 360.76861572265625
+Match 6: Distance 1 - 305.60595703125, Distance 2 - 331.8177185058594
+Match 7: Distance 1 - 344.2426452636719, Distance 2 - 345.3766174316406
+Match 8: Distance 1 - 271.8216247558594, Distance 2 - 313.3384704589844
+Match 9: Distance 1 - 327.0856018066406, Distance 2 - 357.2660217285156
+Match 10: Distance 1 - 243.72320556640625, Distance 2 - 296.1840515136719
+18 matches passed Lowe's ratio test.
+Found 5347 and 11664 keypoints in the images respectively.
+Found 5347 raw matches.
+Match 0: Distance 1 - 305.48651123046875, Distance 2 - 309.0016174316406
+Match 1: Distance 1 - 310.9131774902344, Distance 2 - 329.3903503417969
+Match 2: Distance 1 - 337.15130615234375, Distance 2 - 344.2005310058594
+Match 3: Distance 1 - 335.63372802734375, Distance 2 - 345.1463317871094
+Match 4: Distance 1 - 339.7646179199219, Distance 2 - 350.48822021484375
+Match 5: Distance 1 - 319.8562316894531, Distance 2 - 321.0763244628906
+Match 6: Distance 1 - 359.9847106933594, Distance 2 - 363.1845397949219
+Match 7: Distance 1 - 291.00860595703125, Distance 2 - 332.54022216796875
+Match 8: Distance 1 - 328.5589599609375, Distance 2 - 331.3562927246094
+Match 9: Distance 1 - 298.86285400390625, Distance 2 - 319.3289794921875
+Match 10: Distance 1 - 237.1138916015625, Distance 2 - 255.02745056152344
+23 matches passed Lowe's ratio test.
+Found 5347 and 6730 keypoints in the images respectively.
+Found 5347 raw matches.
+Match 0: Distance 1 - 310.0322570800781, Distance 2 - 336.35992431640625
+Match 1: Distance 1 - 325.11383056640625, Distance 2 - 335.065673828125
+Match 2: Distance 1 - 324.572021484375, Distance 2 - 360.3359680175781
+Match 3: Distance 1 - 335.25213623046875, Distance 2 - 339.4171447753906
+Match 4: Distance 1 - 321.8726501464844, Distance 2 - 339.2462158203125
+Match 5: Distance 1 - 301.16107177734375, Distance 2 - 304.9622802734375
+Match 6: Distance 1 - 354.4756774902344, Distance 2 - 364.975341796875
+Match 7: Distance 1 - 334.13470458984375, Distance 2 - 341.1700439453125
+Match 8: Distance 1 - 334.3037414550781, Distance 2 - 345.1246032714844
+Match 9: Distance 1 - 314.23876953125, Distance 2 - 322.493408203125
+Match 10: Distance 1 - 281.8102111816406, Distance 2 - 285.7953796386719
+22 matches passed Lowe's ratio test.
+Found 5347 and 10151 keypoints in the images respectively.
+Found 5347 raw matches.
+Match 0: Distance 1 - 317.7908020019531, Distance 2 - 333.4876403808594
+Match 1: Distance 1 - 315.9208679199219, Distance 2 - 316.6528015136719
+Match 2: Distance 1 - 343.30889892578125, Distance 2 - 376.241943359375
+Match 3: Distance 1 - 334.3067321777344, Distance 2 - 337.7217712402344
+Match 4: Distance 1 - 304.2071533203125, Distance 2 - 314.0286560058594
+Match 5: Distance 1 - 327.7377014160156, Distance 2 - 345.3954162597656
+Match 6: Distance 1 - 332.51165771484375, Distance 2 - 338.5335998535156
+Match 7: Distance 1 - 353.9053649902344, Distance 2 - 360.0763854980469
+Match 8: Distance 1 - 325.066162109375, Distance 2 - 359.5386047363281
+Match 9: Distance 1 - 310.43035888671875, Distance 2 - 327.3621826171875
+Match 10: Distance 1 - 261.7670593261719, Distance 2 - 280.240966796875
+24 matches passed Lowe's ratio test.
+Found 5347 and 11893 keypoints in the images respectively.
+Found 5347 raw matches.
+Match 0: Distance 1 - 283.4131164550781, Distance 2 - 302.9075622558594
+Match 1: Distance 1 - 305.0163879394531, Distance 2 - 322.8761291503906
+Match 2: Distance 1 - 378.59344482421875, Distance 2 - 384.4307556152344
+Match 3: Distance 1 - 335.6605529785156, Distance 2 - 348.6273193359375
+Match 4: Distance 1 - 335.07611083984375, Distance 2 - 349.12176513671875
+Match 5: Distance 1 - 323.6881103515625, Distance 2 - 325.6685485839844
+Match 6: Distance 1 - 340.3145751953125, Distance 2 - 349.8928527832031
+Match 7: Distance 1 - 331.657958984375, Distance 2 - 337.0207824707031
+Match 8: Distance 1 - 305.5568542480469, Distance 2 - 338.0872802734375
+Match 9: Distance 1 - 293.0614318847656, Distance 2 - 311.8220520019531
+Match 10: Distance 1 - 216.84095764160156, Distance 2 - 250.40966796875
+15 matches passed Lowe's ratio test.
+Found 5347 and 14606 keypoints in the images respectively.
+Found 5347 raw matches.
+Match 0: Distance 1 - 317.91192626953125, Distance 2 - 318.6282958984375
+Match 1: Distance 1 - 306.9674377441406, Distance 2 - 332.5853271484375
+Match 2: Distance 1 - 353.2223205566406, Distance 2 - 373.941162109375
+Match 3: Distance 1 - 321.309814453125, Distance 2 - 329.07293701171875
+Match 4: Distance 1 - 340.8254699707031, Distance 2 - 358.5721740722656
+Match 5: Distance 1 - 312.1041564941406, Distance 2 - 324.4718933105469
+Match 6: Distance 1 - 274.5013732910156, Distance 2 - 336.1353759765625
+Match 7: Distance 1 - 335.32818603515625, Distance 2 - 348.6402282714844
+Match 8: Distance 1 - 334.04339599609375, Distance 2 - 345.3432922363281
+Match 9: Distance 1 - 300.0, Distance 2 - 311.31976318359375
+Match 10: Distance 1 - 251.68829345703125, Distance 2 - 267.38922119140625
+13 matches passed Lowe's ratio test.
+Found 5347 and 9372 keypoints in the images respectively.
+Found 5347 raw matches.
+Match 0: Distance 1 - 303.2029113769531, Distance 2 - 332.1656188964844
+Match 1: Distance 1 - 267.3312683105469, Distance 2 - 337.3232727050781
+Match 2: Distance 1 - 345.4634704589844, Distance 2 - 353.3935546875
+Match 3: Distance 1 - 342.6777038574219, Distance 2 - 353.77392578125
+Match 4: Distance 1 - 354.0042419433594, Distance 2 - 355.343505859375
+Match 5: Distance 1 - 302.2399597167969, Distance 2 - 315.29986572265625
+Match 6: Distance 1 - 309.2393798828125, Distance 2 - 331.9322204589844
+Match 7: Distance 1 - 329.3554382324219, Distance 2 - 343.28851318359375
+Match 8: Distance 1 - 332.2107849121094, Distance 2 - 344.4575500488281
+Match 9: Distance 1 - 289.7464294433594, Distance 2 - 319.34307861328125
+Match 10: Distance 1 - 251.7399444580078, Distance 2 - 253.3475799560547
+19 matches passed Lowe's ratio test.
+Found 11664 and 6730 keypoints in the images respectively.
+Found 11664 raw matches.
+Match 0: Distance 1 - 353.03399658203125, Distance 2 - 356.1095275878906
+Match 1: Distance 1 - 283.81683349609375, Distance 2 - 321.1292724609375
+Match 2: Distance 1 - 336.28411865234375, Distance 2 - 350.746337890625
+Match 3: Distance 1 - 322.3274841308594, Distance 2 - 343.35113525390625
+Match 4: Distance 1 - 327.8948059082031, Distance 2 - 329.47381591796875
+Match 5: Distance 1 - 277.4202575683594, Distance 2 - 305.39483642578125
+Match 6: Distance 1 - 317.77508544921875, Distance 2 - 339.2594909667969
+Match 7: Distance 1 - 344.46771240234375, Distance 2 - 350.2698974609375
+Match 8: Distance 1 - 343.17926025390625, Distance 2 - 354.04095458984375
+Match 9: Distance 1 - 331.5780334472656, Distance 2 - 339.92645263671875
+Match 10: Distance 1 - 332.6078796386719, Distance 2 - 335.861572265625
+17 matches passed Lowe's ratio test.
+Found 11664 and 10151 keypoints in the images respectively.
+Found 11664 raw matches.
+Match 0: Distance 1 - 346.2542419433594, Distance 2 - 351.4370422363281
+Match 1: Distance 1 - 262.5490417480469, Distance 2 - 280.4995422363281
+Match 2: Distance 1 - 356.44354248046875, Distance 2 - 357.18902587890625
+Match 3: Distance 1 - 340.6523132324219, Distance 2 - 350.2270812988281
+Match 4: Distance 1 - 323.7637939453125, Distance 2 - 352.0198974609375
+Match 5: Distance 1 - 336.7239074707031, Distance 2 - 343.54766845703125
+Match 6: Distance 1 - 338.08282470703125, Distance 2 - 356.8360900878906
+Match 7: Distance 1 - 305.306396484375, Distance 2 - 345.59368896484375
+Match 8: Distance 1 - 304.4946594238281, Distance 2 - 330.0257568359375
+Match 9: Distance 1 - 319.5684509277344, Distance 2 - 320.3669738769531
+Match 10: Distance 1 - 317.134033203125, Distance 2 - 320.38726806640625
+48 matches passed Lowe's ratio test.
+Found 11664 and 11893 keypoints in the images respectively.
+Found 11664 raw matches.
+Match 0: Distance 1 - 310.7587585449219, Distance 2 - 348.39202880859375
+Match 1: Distance 1 - 241.5056915283203, Distance 2 - 266.0939636230469
+Match 2: Distance 1 - 340.34539794921875, Distance 2 - 366.2021179199219
+Match 3: Distance 1 - 358.70880126953125, Distance 2 - 363.2010498046875
+Match 4: Distance 1 - 350.8218994140625, Distance 2 - 359.0180969238281
+Match 5: Distance 1 - 300.77069091796875, Distance 2 - 303.7186279296875
+Match 6: Distance 1 - 351.9858093261719, Distance 2 - 363.4611511230469
+Match 7: Distance 1 - 318.1509094238281, Distance 2 - 338.5291748046875
+Match 8: Distance 1 - 336.48626708984375, Distance 2 - 345.3693542480469
+Match 9: Distance 1 - 286.8797607421875, Distance 2 - 342.0482482910156
+Match 10: Distance 1 - 332.70709228515625, Distance 2 - 343.5986022949219
+9 matches passed Lowe's ratio test.
+Found 11664 and 14606 keypoints in the images respectively.
+Found 11664 raw matches.
+Match 0: Distance 1 - 316.53594970703125, Distance 2 - 325.0892333984375
+Match 1: Distance 1 - 305.5699462890625, Distance 2 - 312.3331604003906
+Match 2: Distance 1 - 335.66949462890625, Distance 2 - 340.37774658203125
+Match 3: Distance 1 - 317.8883361816406, Distance 2 - 344.1932678222656
+Match 4: Distance 1 - 298.6620178222656, Distance 2 - 335.4310607910156
+Match 5: Distance 1 - 321.6069030761719, Distance 2 - 325.04461669921875
+Match 6: Distance 1 - 361.50103759765625, Distance 2 - 365.4066162109375
+Match 7: Distance 1 - 329.71502685546875, Distance 2 - 341.61090087890625
+Match 8: Distance 1 - 327.7712707519531, Distance 2 - 353.3411865234375
+Match 9: Distance 1 - 252.09521484375, Distance 2 - 285.10174560546875
+Match 10: Distance 1 - 302.7143859863281, Distance 2 - 303.90130615234375
+10 matches passed Lowe's ratio test.
+Found 11664 and 9372 keypoints in the images respectively.
+Found 11664 raw matches.
+Match 0: Distance 1 - 332.0903625488281, Distance 2 - 345.8887023925781
+Match 1: Distance 1 - 295.849609375, Distance 2 - 305.978759765625
+Match 2: Distance 1 - 327.7560119628906, Distance 2 - 366.54058837890625
+Match 3: Distance 1 - 345.02899169921875, Distance 2 - 345.1101379394531
+Match 4: Distance 1 - 357.14141845703125, Distance 2 - 360.3193054199219
+Match 5: Distance 1 - 281.062255859375, Distance 2 - 295.279541015625
+Match 6: Distance 1 - 309.5496826171875, Distance 2 - 341.5479431152344
+Match 7: Distance 1 - 318.0911865234375, Distance 2 - 334.396484375
+Match 8: Distance 1 - 336.59918212890625, Distance 2 - 349.2706604003906
+Match 9: Distance 1 - 289.9482727050781, Distance 2 - 334.60723876953125
+Match 10: Distance 1 - 322.2033386230469, Distance 2 - 323.8919677734375
+19 matches passed Lowe's ratio test.
+Found 6730 and 10151 keypoints in the images respectively.
+Found 6730 raw matches.
+Match 0: Distance 1 - 299.20562744140625, Distance 2 - 337.6817932128906
+Match 1: Distance 1 - 323.5181579589844, Distance 2 - 324.2437438964844
+Match 2: Distance 1 - 365.3587341308594, Distance 2 - 376.04254150390625
+Match 3: Distance 1 - 350.21136474609375, Distance 2 - 380.4168701171875
+Match 4: Distance 1 - 352.6825866699219, Distance 2 - 360.4941101074219
+Match 5: Distance 1 - 328.0655517578125, Distance 2 - 336.942138671875
+Match 6: Distance 1 - 309.1067810058594, Distance 2 - 325.0999755859375
+Match 7: Distance 1 - 358.3113098144531, Distance 2 - 359.17266845703125
+Match 8: Distance 1 - 354.0988464355469, Distance 2 - 355.20135498046875
+Match 9: Distance 1 - 307.7969970703125, Distance 2 - 312.7442932128906
+Match 10: Distance 1 - 294.28387451171875, Distance 2 - 349.8799743652344
+11 matches passed Lowe's ratio test.
+Found 6730 and 11893 keypoints in the images respectively.
+Found 6730 raw matches.
+Match 0: Distance 1 - 324.8738098144531, Distance 2 - 358.53033447265625
+Match 1: Distance 1 - 315.2348327636719, Distance 2 - 325.703857421875
+Match 2: Distance 1 - 337.4877624511719, Distance 2 - 366.8160400390625
+Match 3: Distance 1 - 351.52099609375, Distance 2 - 356.9285583496094
+Match 4: Distance 1 - 317.6932373046875, Distance 2 - 336.7550964355469
+Match 5: Distance 1 - 334.3007507324219, Distance 2 - 345.7976379394531
+Match 6: Distance 1 - 318.9529724121094, Distance 2 - 330.6070251464844
+Match 7: Distance 1 - 334.4158935546875, Distance 2 - 343.7571716308594
+Match 8: Distance 1 - 349.3035888671875, Distance 2 - 356.8935546875
+Match 9: Distance 1 - 307.9172058105469, Distance 2 - 323.7004699707031
+Match 10: Distance 1 - 290.8470458984375, Distance 2 - 336.1175537109375
+12 matches passed Lowe's ratio test.
+Found 6730 and 14606 keypoints in the images respectively.
+Found 6730 raw matches.
+Match 0: Distance 1 - 309.37518310546875, Distance 2 - 325.2030029296875
+Match 1: Distance 1 - 327.25067138671875, Distance 2 - 329.4935607910156
+Match 2: Distance 1 - 367.8804016113281, Distance 2 - 376.60986328125
+Match 3: Distance 1 - 357.3387756347656, Distance 2 - 361.7139892578125
+Match 4: Distance 1 - 295.9493103027344, Distance 2 - 358.4773254394531
+Match 5: Distance 1 - 336.46099853515625, Distance 2 - 350.4482727050781
+Match 6: Distance 1 - 362.2361145019531, Distance 2 - 364.07965087890625
+Match 7: Distance 1 - 343.7746276855469, Distance 2 - 354.5320739746094
+Match 8: Distance 1 - 347.37445068359375, Distance 2 - 361.0567932128906
+Match 9: Distance 1 - 280.8718566894531, Distance 2 - 302.41363525390625
+Match 10: Distance 1 - 362.6789245605469, Distance 2 - 368.7315979003906
+25 matches passed Lowe's ratio test.
+Found 6730 and 9372 keypoints in the images respectively.
+Found 6730 raw matches.
+Match 0: Distance 1 - 306.0081787109375, Distance 2 - 324.75836181640625
+Match 1: Distance 1 - 332.13702392578125, Distance 2 - 332.9189147949219
+Match 2: Distance 1 - 337.2269287109375, Distance 2 - 352.3875732421875
+Match 3: Distance 1 - 384.549072265625, Distance 2 - 385.9676208496094
+Match 4: Distance 1 - 353.5887451171875, Distance 2 - 355.2379455566406
+Match 5: Distance 1 - 334.5967712402344, Distance 2 - 335.5726318359375
+Match 6: Distance 1 - 317.8820495605469, Distance 2 - 338.4715576171875
+Match 7: Distance 1 - 350.91595458984375, Distance 2 - 354.7999572753906
+Match 8: Distance 1 - 318.50274658203125, Distance 2 - 351.6475524902344
+Match 9: Distance 1 - 310.0209655761719, Distance 2 - 335.065673828125
+Match 10: Distance 1 - 347.7887268066406, Distance 2 - 360.2152099609375
+17 matches passed Lowe's ratio test.
+Found 10151 and 11893 keypoints in the images respectively.
+Found 10151 raw matches.
+Match 0: Distance 1 - 353.2647705078125, Distance 2 - 355.0098571777344
+Match 1: Distance 1 - 362.1353454589844, Distance 2 - 365.13421630859375
+Match 2: Distance 1 - 290.392822265625, Distance 2 - 323.068115234375
+Match 3: Distance 1 - 303.2095031738281, Distance 2 - 317.1103820800781
+Match 4: Distance 1 - 281.6647033691406, Distance 2 - 316.20245361328125
+Match 5: Distance 1 - 313.3448486328125, Distance 2 - 340.70513916015625
+Match 6: Distance 1 - 341.3253479003906, Distance 2 - 353.00567626953125
+Match 7: Distance 1 - 320.5916442871094, Distance 2 - 326.25909423828125
+Match 8: Distance 1 - 324.61669921875, Distance 2 - 338.9336242675781
+Match 9: Distance 1 - 338.3947448730469, Distance 2 - 351.3459777832031
+Match 10: Distance 1 - 231.263916015625, Distance 2 - 237.12022399902344
+13 matches passed Lowe's ratio test.
+Found 10151 and 14606 keypoints in the images respectively.
+Found 10151 raw matches.
+Match 0: Distance 1 - 357.5905456542969, Distance 2 - 361.8701477050781
+Match 1: Distance 1 - 349.0716247558594, Distance 2 - 357.6059265136719
+Match 2: Distance 1 - 274.9945373535156, Distance 2 - 326.55322265625
+Match 3: Distance 1 - 301.0979919433594, Distance 2 - 328.4554748535156
+Match 4: Distance 1 - 348.2857971191406, Distance 2 - 371.3811950683594
+Match 5: Distance 1 - 338.9793395996094, Distance 2 - 352.9036560058594
+Match 6: Distance 1 - 341.4674072265625, Distance 2 - 350.1585388183594
+Match 7: Distance 1 - 273.13916015625, Distance 2 - 284.81573486328125
+Match 8: Distance 1 - 297.63232421875, Distance 2 - 335.0552062988281
+Match 9: Distance 1 - 338.0, Distance 2 - 338.763916015625
+Match 10: Distance 1 - 203.06649780273438, Distance 2 - 206.1116180419922
+9 matches passed Lowe's ratio test.
+Found 10151 and 9372 keypoints in the images respectively.
+Found 10151 raw matches.
+Match 0: Distance 1 - 348.6574401855469, Distance 2 - 354.3303527832031
+Match 1: Distance 1 - 325.6424560546875, Distance 2 - 328.26513671875
+Match 2: Distance 1 - 341.6899108886719, Distance 2 - 344.12353515625
+Match 3: Distance 1 - 285.7113952636719, Distance 2 - 304.06085205078125
+Match 4: Distance 1 - 280.2302551269531, Distance 2 - 331.0634460449219
+Match 5: Distance 1 - 307.2425842285156, Distance 2 - 339.7955322265625
+Match 6: Distance 1 - 353.5010681152344, Distance 2 - 354.18780517578125
+Match 7: Distance 1 - 291.40692138671875, Distance 2 - 307.2458190917969
+Match 8: Distance 1 - 310.5301818847656, Distance 2 - 355.845458984375
+Match 9: Distance 1 - 252.32518005371094, Distance 2 - 307.54510498046875
+Match 10: Distance 1 - 227.87716674804688, Distance 2 - 229.3839569091797
+14 matches passed Lowe's ratio test.
+Found 11893 and 14606 keypoints in the images respectively.
+Found 11893 raw matches.
+Match 0: Distance 1 - 338.1700744628906, Distance 2 - 338.4582824707031
+Match 1: Distance 1 - 296.59906005859375, Distance 2 - 328.9787292480469
+Match 2: Distance 1 - 315.2205505371094, Distance 2 - 318.25933837890625
+Match 3: Distance 1 - 348.7922058105469, Distance 2 - 356.005615234375
+Match 4: Distance 1 - 283.8133239746094, Distance 2 - 308.0665588378906
+Match 5: Distance 1 - 313.8407287597656, Distance 2 - 326.86541748046875
+Match 6: Distance 1 - 299.5496520996094, Distance 2 - 360.7713928222656
+Match 7: Distance 1 - 367.4683532714844, Distance 2 - 394.88226318359375
+Match 8: Distance 1 - 320.6041259765625, Distance 2 - 366.2676696777344
+Match 9: Distance 1 - 291.785888671875, Distance 2 - 340.7814636230469
+Match 10: Distance 1 - 347.6593017578125, Distance 2 - 349.3408203125
+291 matches passed Lowe's ratio test.
+Found 11893 and 9372 keypoints in the images respectively.
+Found 11893 raw matches.
+Match 0: Distance 1 - 345.3143615722656, Distance 2 - 377.4731750488281
+Match 1: Distance 1 - 293.3223571777344, Distance 2 - 307.8879699707031
+Match 2: Distance 1 - 269.1096496582031, Distance 2 - 295.9966125488281
+Match 3: Distance 1 - 309.8789978027344, Distance 2 - 315.2300720214844
+Match 4: Distance 1 - 290.96392822265625, Distance 2 - 300.1866149902344
+Match 5: Distance 1 - 289.4684753417969, Distance 2 - 318.9310302734375
+Match 6: Distance 1 - 341.9765930175781, Distance 2 - 361.48858642578125
+Match 7: Distance 1 - 367.5622253417969, Distance 2 - 373.6709899902344
+Match 8: Distance 1 - 330.83380126953125, Distance 2 - 338.0798645019531
+Match 9: Distance 1 - 285.4189758300781, Distance 2 - 301.517822265625
+Match 10: Distance 1 - 295.86822509765625, Distance 2 - 318.1446228027344
+127 matches passed Lowe's ratio test.
+Found 14606 and 9372 keypoints in the images respectively.
+Found 14606 raw matches.
+Match 0: Distance 1 - 339.4289245605469, Distance 2 - 343.28558349609375
+Match 1: Distance 1 - 244.25601196289062, Distance 2 - 272.7232971191406
+Match 2: Distance 1 - 326.1548767089844, Distance 2 - 340.70367431640625
+Match 3: Distance 1 - 259.33184814453125, Distance 2 - 282.34375
+Match 4: Distance 1 - 294.69476318359375, Distance 2 - 330.6191101074219
+Match 5: Distance 1 - 373.290771484375, Distance 2 - 376.7399597167969
+Match 6: Distance 1 - 302.3739318847656, Distance 2 - 315.7419738769531
+Match 7: Distance 1 - 334.86712646484375, Distance 2 - 342.52154541015625
+Match 8: Distance 1 - 327.42938232421875, Distance 2 - 333.0360412597656
+Match 9: Distance 1 - 294.7303771972656, Distance 2 - 310.7780456542969
+Match 10: Distance 1 - 293.6221923828125, Distance 2 - 315.78472900390625
+13 matches passed Lowe's ratio test.

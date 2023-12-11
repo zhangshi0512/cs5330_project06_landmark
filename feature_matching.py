@@ -8,11 +8,24 @@ import csv
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Initialize SIFT detector
-sift = cv2.SIFT_create()
+# Initialize SIFT with custom parameters
+nfeatures = 15000  # Increase for more features
+contrastThreshold = 0.02  # Decrease to retain more features with lower contrast
+edgeThreshold = 6  # Decrease to retain more features that are edge-like
+sigma = 1.6  # Typically left at default
+
+sift = cv2.SIFT_create(nfeatures=nfeatures, contrastThreshold=contrastThreshold,
+                       edgeThreshold=edgeThreshold, sigma=sigma)
 
 
-def detect_and_match_features(image1, image2, sift):
+def draw_title(img, title, font_scale=1, font=cv2.FONT_HERSHEY_SIMPLEX, y_offset=30):
+    text_size = cv2.getTextSize(title, font, font_scale, 1)[0]
+    text_x = (img.shape[1] - text_size[0]) // 2
+    cv2.putText(img, title, (text_x, y_offset),
+                font, font_scale, (0, 255, 0), 2)
+
+
+def detect_and_match_features(image1, image2, sift, pair_name, save_path):
     # Detect and compute keypoints and descriptors with SIFT
     keypoints1, descriptors1 = sift.detectAndCompute(image1, None)
     keypoints2, descriptors2 = sift.detectAndCompute(image2, None)
@@ -32,9 +45,9 @@ def detect_and_match_features(image1, image2, sift):
         descriptors2 = descriptors2.astype(np.float32)
 
     # FLANN-based matcher parameters
-    FLANN_INDEX_KDTREE = 1
-    index_params = dict(algorithm=FLANN_INDEX_KDTREE, trees=5)
-    search_params = dict(checks=100)
+    FLANN_INDEX_KDTREE = 1  # KD-Tree algorithm
+    index_params = dict(algorithm=FLANN_INDEX_KDTREE, trees=9)
+    search_params = dict(checks=150)
 
     # Matching descriptor vectors using FLANN matcher
     flann = cv2.FlannBasedMatcher(index_params, search_params)
@@ -52,18 +65,12 @@ def detect_and_match_features(image1, image2, sift):
     # Store all good matches as per Lowe's ratio test.
     good_matches = []
     for m, n in matches:
-        if m.distance < 0.75 * n.distance:
+        if m.distance < 0.7 * n.distance:
             good_matches.append(m)
 
     print(f"{len(good_matches)} matches passed Lowe's ratio test.")
 
     """
-    distance_threshold = 0.7
-    good_matches = [m for m in good_matches if m.distance < distance_threshold]
-
-    print(f"{len(good_matches)} matches passed the distance threshold.")
-    """
-
     # Apply RANSAC to filter out outliers
     if len(good_matches) > 4:  # Minimum number of matches to find the homography
         ptsA = np.float32(
@@ -72,7 +79,7 @@ def detect_and_match_features(image1, image2, sift):
             [keypoints2[m.trainIdx].pt for m in good_matches]).reshape(-1, 1, 2)
 
         matrix, mask = cv2.findHomography(
-            ptsA, ptsB, cv2.RANSAC, 3.0, maxIters=2000)
+            ptsA, ptsB, cv2.RANSAC, 4.0, maxIters=2000)
         if mask is not None:
             matchesMask = mask.ravel().tolist()
             good_matches = [gm for gm, mask in zip(
@@ -84,17 +91,26 @@ def detect_and_match_features(image1, image2, sift):
     else:
         print("Not enough good matches to apply RANSAC.")
         matchesMask = None
-
+    """
     # Draw top matches
     img_matches = cv2.drawMatches(image1, keypoints1, image2, keypoints2,
                                   good_matches[:50], None, flags=cv2.DrawMatchesFlags_NOT_DRAW_SINGLE_POINTS)
 
-    # Show detected matches
-    plt.figure(figsize=(12, 6))
-    plt.imshow(img_matches)
-    plt.title('Feature Matches')
-    plt.axis('off')
-    plt.show()
+    # Adding title to the image
+    draw_title(img_matches, 'Feature Matches')
+
+    # Resize image if necessary (similar to adjusting figure size)
+    desired_width = 1200  # Example width, adjust as needed
+    scale_ratio = desired_width / img_matches.shape[1]
+    img_matches = cv2.resize(img_matches, None, fx=scale_ratio, fy=scale_ratio)
+
+    # Save the image
+    if not os.path.exists(save_path):
+        os.makedirs(save_path)
+    output_file = os.path.join(save_path, f"matches_{pair_name}.png")
+    cv2.imwrite(output_file, img_matches)
+
+    print(f"Saved matching visualization to {output_file}")
 
     return good_matches, keypoints1, keypoints2
 
@@ -109,7 +125,8 @@ def load_images_from_folder(folder):
 
 
 def main():
-    folder_path = 'preprocessed_images/basketball/'
+    folder_path = 'preprocessed_images/trash_bin2/'
+    save_path = 'output/feature_matching/trash_bin2/'
     images = load_images_from_folder(folder_path)
 
     all_matches = []  # Initialize the list to store all matches
@@ -120,11 +137,14 @@ def main():
             image1_name, image1 = images[i]
             image2_name, image2 = images[j]
 
+            # Generate a unique name for each pair of images
+            pair_name = f"{image1_name}_vs_{image2_name}"
+
             h1, w1 = image1.shape[:2]  # Height and width of image1
             h2, w2 = image2.shape[:2]  # Height and width of image2
 
             matches, keypoints1, keypoints2 = detect_and_match_features(
-                image1, image2, sift)
+                image1, image2, sift, pair_name, save_path)
 
             # Process matches and store them in all_matches
             for match in matches:

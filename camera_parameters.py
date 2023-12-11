@@ -1,7 +1,8 @@
 # camera_parameters.py
 
-import csv
+import cv2
 import numpy as np
+import csv
 
 
 def load_camera_parameters(filename):
@@ -13,10 +14,13 @@ def load_camera_parameters(filename):
                 print(f"Skipping invalid row: {row}")
                 continue
             image, rvec1, rvec2, rvec3, tvec1, tvec2, tvec3 = row
-            camera_params[image] = np.array([
-                [float(rvec1), float(rvec2), float(rvec3)],
-                [float(tvec1), float(tvec2), float(tvec3)]
-            ])
+            rvec = np.array([float(rvec1), float(rvec2), float(rvec3)])
+            tvec = np.array([float(tvec1), float(tvec2), float(tvec3)])
+
+            # Convert rotation vector to rotation matrix
+            r_mat, _ = cv2.Rodrigues(rvec)
+
+            camera_params[image] = {'r_mat': r_mat, 'tvec': tvec}
     return camera_params
 
 

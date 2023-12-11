@@ -46,5 +46,5 @@ def process_images_in_folder(folder_path, output_folder=None):
 
 
 if __name__ == '__main__':
-    process_images_in_folder('images/basketball/',
-                             'preprocessed_images/basketball/')
+    process_images_in_folder('images/trash_bin2/',
+                             'preprocessed_images/trash_bin2/')
