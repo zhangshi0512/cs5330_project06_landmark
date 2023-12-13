@@ -2,6 +2,7 @@
 # Shi Zhang
 # This file is for feature detection and matching
 
+# import statements
 import cv2
 import os
 import csv
@@ -19,6 +20,8 @@ sift = cv2.SIFT_create(nfeatures=nfeatures, contrastThreshold=contrastThreshold,
 
 
 def draw_title(img, title, font_scale=1, font=cv2.FONT_HERSHEY_SIMPLEX, y_offset=30):
+    # Adds a title to an image at a specified position.
+    # The title is centrally aligned with a specified font scale and color.
     text_size = cv2.getTextSize(title, font, font_scale, 1)[0]
     text_x = (img.shape[1] - text_size[0]) // 2
     cv2.putText(img, title, (text_x, y_offset),
@@ -26,6 +29,11 @@ def draw_title(img, title, font_scale=1, font=cv2.FONT_HERSHEY_SIMPLEX, y_offset
 
 
 def detect_and_match_features(image1, image2, sift, pair_name, save_path):
+    # Detects and matches features between two images using SIFT and FLANN-based matcher.
+    # It filters good matches based on Lowe's ratio test and draws top matches for visualization.
+    # The resulting image with matches is saved to the specified path.
+    # Returns the good matches and keypoints for both images.
+
     # Detect and compute keypoints and descriptors with SIFT
     keypoints1, descriptors1 = sift.detectAndCompute(image1, None)
     keypoints2, descriptors2 = sift.detectAndCompute(image2, None)
@@ -65,7 +73,7 @@ def detect_and_match_features(image1, image2, sift, pair_name, save_path):
     # Store all good matches as per Lowe's ratio test.
     good_matches = []
     for m, n in matches:
-        if m.distance < 0.7 * n.distance:
+        if m.distance < 0.85 * n.distance:
             good_matches.append(m)
 
     print(f"{len(good_matches)} matches passed Lowe's ratio test.")
@@ -116,6 +124,8 @@ def detect_and_match_features(image1, image2, sift, pair_name, save_path):
 
 
 def load_images_from_folder(folder):
+    # Loads all grayscale images from a specified folder.
+    # Returns a list of tuples containing the filename and the image.
     images = []
     for filename in os.listdir(folder):
         img = cv2.imread(os.path.join(folder, filename), cv2.IMREAD_GRAYSCALE)
@@ -125,6 +135,8 @@ def load_images_from_folder(folder):
 
 
 def main():
+    # Main function to process images for feature detection and matching.
+    # It loads images from a folder, performs feature matching, and saves the results.
     folder_path = 'preprocessed_images/trash_bin2/'
     save_path = 'output/feature_matching/trash_bin2/'
     images = load_images_from_folder(folder_path)

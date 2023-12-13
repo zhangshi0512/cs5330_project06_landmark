@@ -2,16 +2,17 @@
 # Shi Zhang
 # This file is for estimating camera parameters
 
+# import statements
 import cv2
 import numpy as np
 import open3d as o3d
 import csv
 import os
 
-# Function to estimate intrinsic camera parameters
-
 
 def estimate_intrinsic_parameters(matches, dimensions):
+    # Estimates intrinsic camera parameters based on feature matches and image dimensions.
+    # Utilizes the OpenCV calibration functions to compute the camera matrix and distortion coefficients.
     image_names = []
     for (image1, image2), match_points in matches.items():
         if image1 not in image_names:
@@ -76,6 +77,8 @@ def estimate_intrinsic_parameters(matches, dimensions):
 
 
 def load_feature_matches(csv_file):
+    # Loads feature matches and image dimensions from a CSV file.
+    # Organizes the matches into a dictionary indexed by image pairs and stores image dimensions.
     matches = {}
     dimensions = {}
     with open(csv_file, 'r') as file:
@@ -94,6 +97,8 @@ def load_feature_matches(csv_file):
 
 
 def estimate_camera_parameters(matches, dimensions):
+    # Estimates extrinsic camera parameters (rotation and translation vectors) for each image.
+    # Uses solvePnPRansac and solvePnP from OpenCV for the estimation.
     camera_params = {}
 
     for (image1, image2), match_points in matches.items():
@@ -144,6 +149,7 @@ def estimate_camera_parameters(matches, dimensions):
 
 
 def save_camera_params_to_file(camera_params, filename):
+    # Saves the estimated camera parameters to a CSV file.
     with open(filename, 'w') as file:
         for image, params in camera_params.items():
             r_mat, tvec = params['r_mat'], params['tvec']
@@ -153,6 +159,7 @@ def save_camera_params_to_file(camera_params, filename):
 
 
 def save_intrinsic_params_to_file(intrinsic_matrices, dist_coeffs, filename):
+    # Saves the estimated intrinsic parameters and distortion coefficients to a CSV file.
     with open(filename, 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(['Image', 'Camera Matrix', 'Distortion Coefficients'])
@@ -163,6 +170,9 @@ def save_intrinsic_params_to_file(intrinsic_matrices, dist_coeffs, filename):
 
 
 def main():
+    # Main function to process the estimation of camera parameters.
+    # It loads feature matches, estimates camera and intrinsic parameters, and saves them to files.
+
     csv_file = 'feature_matches.csv'
     matches, dimensions = load_feature_matches(csv_file)
 

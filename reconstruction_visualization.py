@@ -1,5 +1,8 @@
 # reconstruction_visualization.py
+# Shi Zhang
+# This file is for 3D scene reconstruction and visualization
 
+# import statements
 import cv2
 import csv
 import numpy as np
@@ -8,6 +11,9 @@ from camera_parameters import load_camera_parameters, load_feature_matches
 
 
 def load_intrinsic_parameters(filename):
+    # Loads intrinsic camera parameters from a CSV file.
+    # These parameters include the camera matrix and distortion coefficients for each image.
+
     intrinsic_matrices = {}
     dist_coeffs = {}
     with open(filename, 'r') as file:
@@ -25,6 +31,9 @@ def load_intrinsic_parameters(filename):
 
 
 def triangulate_points(matches, camera_params, intrinsic_matrices, dist_coeffs):
+    # Triangulates 3D points from 2D feature matches using camera and intrinsic parameters.
+    # This function forms the core of 3D scene reconstruction by converting 2D image points to 3D points.
+
     all_points_3d = []
 
     for (img1, img2), match_pts in matches.items():
@@ -86,6 +95,9 @@ def triangulate_points(matches, camera_params, intrinsic_matrices, dist_coeffs):
 
 
 def create_point_cloud(points):
+    # Creates a point cloud from a set of 3D points using Open3D.
+    # This function is essential for visualizing the reconstructed 3D scene.
+
     point_cloud = o3d.geometry.PointCloud()
     if points.size > 0:
         point_cloud.points = o3d.utility.Vector3dVector(points)
@@ -96,10 +108,10 @@ def create_point_cloud(points):
 
 
 def visualize_point_cloud(point_cloud):
+    # Visualizes a point cloud using Open3D's visualization capabilities.
+    # This function allows for the inspection and analysis of the reconstructed 3D scene.
+
     # Remove outliers
-    # point_cloud = point_cloud.voxel_down_sample(voxel_size=0.02)
-    # cl, ind = point_cloud.remove_statistical_outlier(
-    #    nb_neighbors=20, std_ratio=2.0)
     point_cloud, ind = point_cloud.remove_statistical_outlier(
         nb_neighbors=20, std_ratio=2.0)
     point_cloud = point_cloud.select_by_index(ind)
@@ -108,6 +120,9 @@ def visualize_point_cloud(point_cloud):
 
 
 def main():
+    # Main function to orchestrate the 3D reconstruction and visualization process.
+    # It loads camera parameters, intrinsic parameters, and feature matches, then triangulates points and visualizes the result.
+
     camera_params_file = 'camera_parameters.csv'
     intrinsic_params_file = 'intrinsic_parameters.csv'
     feature_matches_file = 'feature_matches.csv'

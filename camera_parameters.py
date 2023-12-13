@@ -1,11 +1,18 @@
 # camera_parameters.py
+# Shi Zhang
+# This file is for camera parameters process
 
+# import statements
 import cv2
 import numpy as np
 import csv
 
 
 def load_camera_parameters(filename):
+    # Loads camera parameters from a specified CSV file.
+    # The parameters include rotation vectors and translation vectors for each image.
+    # Converts the rotation vectors to rotation matrices.
+    # Returns a dictionary mapping each image to its corresponding camera parameters.
     camera_params = {}
     with open(filename, 'r') as file:
         reader = csv.reader(file)
@@ -25,6 +32,10 @@ def load_camera_parameters(filename):
 
 
 def load_feature_matches(csv_file):
+    # Reads feature matches and image dimensions from a CSV file.
+    # Organizes the matches into a dictionary indexed by image pairs.
+    # Also extracts and stores the dimensions of each image.
+    # Returns a tuple containing the matches dictionary and a dimensions dictionary.
     matches = {}
     dimensions = {}
     with open(csv_file, 'r') as file:
