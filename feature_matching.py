@@ -78,7 +78,6 @@ def detect_and_match_features(image1, image2, sift, pair_name, save_path):
 
     print(f"{len(good_matches)} matches passed Lowe's ratio test.")
 
-    """
     # Apply RANSAC to filter out outliers
     if len(good_matches) > 4:  # Minimum number of matches to find the homography
         ptsA = np.float32(
@@ -99,7 +98,7 @@ def detect_and_match_features(image1, image2, sift, pair_name, save_path):
     else:
         print("Not enough good matches to apply RANSAC.")
         matchesMask = None
-    """
+
     # Draw top matches
     img_matches = cv2.drawMatches(image1, keypoints1, image2, keypoints2,
                                   good_matches[:50], None, flags=cv2.DrawMatchesFlags_NOT_DRAW_SINGLE_POINTS)

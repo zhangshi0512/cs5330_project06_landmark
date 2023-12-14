@@ -1,3 +1,5 @@
+# sfm_dense_reconstruction.py
+
 import os
 import subprocess
 
