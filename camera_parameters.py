@@ -16,6 +16,7 @@ def load_camera_parameters(filename):
     camera_params = {}
     with open(filename, 'r') as file:
         reader = csv.reader(file)
+        next(reader)  # Skip the header
         for row in reader:
             if len(row) != 7:
                 print(f"Skipping invalid row: {row}")

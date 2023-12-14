@@ -136,8 +136,8 @@ def load_images_from_folder(folder):
 def main():
     # Main function to process images for feature detection and matching.
     # It loads images from a folder, performs feature matching, and saves the results.
-    folder_path = 'preprocessed_images/blaine_house/'
-    save_path = 'output/feature_matching/blaine_house/'
+    folder_path = 'preprocessed_images/british_museum/'
+    save_path = 'output/feature_matching/british_museum/'
     images = load_images_from_folder(folder_path)
 
     all_matches = []  # Initialize the list to store all matches

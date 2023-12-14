@@ -55,5 +55,5 @@ def process_images_in_folder(folder_path, output_folder=None):
 
 
 if __name__ == '__main__':
-    process_images_in_folder('images/blaine_house/',
-                             'preprocessed_images/blaine_house/')
+    process_images_in_folder('images/british_museum/',
+                             'preprocessed_images/british_museum/')

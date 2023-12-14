@@ -1,0 +1,943 @@
+Found 15001 and 1981 keypoints in the images respectively.
+Found 15001 raw matches.
+Match 0: Distance 1 - 302.8101806640625, Distance 2 - 323.3620300292969
+Match 1: Distance 1 - 356.2541198730469, Distance 2 - 359.9527893066406
+Match 2: Distance 1 - 261.8587341308594, Distance 2 - 279.5854187011719
+Match 3: Distance 1 - 288.6953430175781, Distance 2 - 312.9760437011719
+Match 4: Distance 1 - 311.1060791015625, Distance 2 - 337.9600524902344
+Match 5: Distance 1 - 354.1666259765625, Distance 2 - 368.28656005859375
+Match 6: Distance 1 - 326.147216796875, Distance 2 - 357.9595031738281
+Match 7: Distance 1 - 353.49114990234375, Distance 2 - 364.25128173828125
+Match 8: Distance 1 - 266.8576354980469, Distance 2 - 291.0378112792969
+Match 9: Distance 1 - 401.0747985839844, Distance 2 - 418.7994689941406
+Match 10: Distance 1 - 326.83636474609375, Distance 2 - 353.4034423828125
+787 matches passed Lowe's ratio test.
+57 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_09362272_3871121693.jpg_vs_79727682_3945098100.jpg.png
+Found 15001 and 3014 keypoints in the images respectively.
+Found 15001 raw matches.
+Match 0: Distance 1 - 295.6332092285156, Distance 2 - 309.44952392578125
+Match 1: Distance 1 - 346.8558654785156, Distance 2 - 377.3247985839844
+Match 2: Distance 1 - 279.0573425292969, Distance 2 - 301.4100341796875
+Match 3: Distance 1 - 310.3433532714844, Distance 2 - 312.2514953613281
+Match 4: Distance 1 - 329.5481872558594, Distance 2 - 338.2779846191406
+Match 5: Distance 1 - 350.8290100097656, Distance 2 - 391.0447692871094
+Match 6: Distance 1 - 340.2160949707031, Distance 2 - 349.7012939453125
+Match 7: Distance 1 - 350.1485290527344, Distance 2 - 354.1835632324219
+Match 8: Distance 1 - 276.239013671875, Distance 2 - 285.4014587402344
+Match 9: Distance 1 - 325.6685485839844, Distance 2 - 351.4313659667969
+Match 10: Distance 1 - 363.44464111328125, Distance 2 - 371.9179992675781
+786 matches passed Lowe's ratio test.
+54 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_09362272_3871121693.jpg_vs_92010501_7538765550.jpg.png
+Found 15001 and 2776 keypoints in the images respectively.
+Found 15001 raw matches.
+Match 0: Distance 1 - 298.3404235839844, Distance 2 - 315.67706298828125
+Match 1: Distance 1 - 373.068359375, Distance 2 - 378.67401123046875
+Match 2: Distance 1 - 305.2392578125, Distance 2 - 324.5812683105469
+Match 3: Distance 1 - 266.1540832519531, Distance 2 - 288.30364990234375
+Match 4: Distance 1 - 302.0794677734375, Distance 2 - 334.2139892578125
+Match 5: Distance 1 - 252.46583557128906, Distance 2 - 348.0574645996094
+Match 6: Distance 1 - 345.55462646484375, Distance 2 - 351.7513427734375
+Match 7: Distance 1 - 362.517578125, Distance 2 - 386.72857666015625
+Match 8: Distance 1 - 303.1732177734375, Distance 2 - 309.8160705566406
+Match 9: Distance 1 - 369.71881103515625, Distance 2 - 372.9101867675781
+Match 10: Distance 1 - 328.9012145996094, Distance 2 - 333.43365478515625
+667 matches passed Lowe's ratio test.
+30 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_09362272_3871121693.jpg_vs_92199010_423632152.jpg.png
+Found 15001 and 2584 keypoints in the images respectively.
+Found 15001 raw matches.
+Match 0: Distance 1 - 251.7915802001953, Distance 2 - 313.1086120605469
+Match 1: Distance 1 - 357.8798828125, Distance 2 - 364.45025634765625
+Match 2: Distance 1 - 253.4087677001953, Distance 2 - 349.8056640625
+Match 3: Distance 1 - 324.2591552734375, Distance 2 - 329.40704345703125
+Match 4: Distance 1 - 331.65191650390625, Distance 2 - 343.1486511230469
+Match 5: Distance 1 - 360.6064453125, Distance 2 - 362.6416931152344
+Match 6: Distance 1 - 326.2514343261719, Distance 2 - 341.4147033691406
+Match 7: Distance 1 - 358.6572265625, Distance 2 - 364.3199157714844
+Match 8: Distance 1 - 304.99835205078125, Distance 2 - 306.7344055175781
+Match 9: Distance 1 - 332.0587158203125, Distance 2 - 367.77166748046875
+Match 10: Distance 1 - 323.7653503417969, Distance 2 - 349.2921447753906
+729 matches passed Lowe's ratio test.
+23 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_09362272_3871121693.jpg_vs_95405900_917617676.jpg.png
+Found 3655 and 3042 keypoints in the images respectively.
+Found 3655 raw matches.
+Match 0: Distance 1 - 259.6555480957031, Distance 2 - 331.7438659667969
+Match 1: Distance 1 - 209.47792053222656, Distance 2 - 220.9932098388672
+Match 2: Distance 1 - 215.63394165039062, Distance 2 - 321.658203125
+Match 3: Distance 1 - 215.1999053955078, Distance 2 - 241.85325622558594
+Match 4: Distance 1 - 389.3623046875, Distance 2 - 392.0369873046875
+Match 5: Distance 1 - 385.6941833496094, Distance 2 - 391.479248046875
+Match 6: Distance 1 - 138.01449584960938, Distance 2 - 266.0695495605469
+Match 7: Distance 1 - 273.0, Distance 2 - 318.0125732421875
+Match 8: Distance 1 - 337.6995849609375, Distance 2 - 353.4586181640625
+Match 9: Distance 1 - 319.134765625, Distance 2 - 350.34698486328125
+Match 10: Distance 1 - 347.49676513671875, Distance 2 - 376.2206726074219
+589 matches passed Lowe's ratio test.
+241 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_18149355_2532015166.jpg_vs_21464353_8770120507.jpg.png
+Found 3655 and 3163 keypoints in the images respectively.
+Found 3655 raw matches.
+Match 0: Distance 1 - 275.2253723144531, Distance 2 - 285.0
+Match 1: Distance 1 - 219.3832244873047, Distance 2 - 251.4676971435547
+Match 2: Distance 1 - 279.2131652832031, Distance 2 - 284.88946533203125
+Match 3: Distance 1 - 222.0472869873047, Distance 2 - 232.84544372558594
+Match 4: Distance 1 - 368.4820251464844, Distance 2 - 416.1141662597656
+Match 5: Distance 1 - 372.1115417480469, Distance 2 - 376.6709289550781
+Match 6: Distance 1 - 267.1273193359375, Distance 2 - 305.56341552734375
+Match 7: Distance 1 - 291.3399963378906, Distance 2 - 295.8631591796875
+Match 8: Distance 1 - 378.42303466796875, Distance 2 - 392.0178527832031
+Match 9: Distance 1 - 271.3484802246094, Distance 2 - 316.6654357910156
+Match 10: Distance 1 - 341.865478515625, Distance 2 - 373.8141174316406
+330 matches passed Lowe's ratio test.
+46 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_18149355_2532015166.jpg_vs_27732591_4349424252.jpg.png
+Found 3655 and 2459 keypoints in the images respectively.
+Found 3655 raw matches.
+Match 0: Distance 1 - 306.5534362792969, Distance 2 - 319.8734130859375
+Match 1: Distance 1 - 245.33242797851562, Distance 2 - 261.3580017089844
+Match 2: Distance 1 - 297.29278564453125, Distance 2 - 343.403564453125
+Match 3: Distance 1 - 200.6439666748047, Distance 2 - 216.6056365966797
+Match 4: Distance 1 - 327.0397644042969, Distance 2 - 340.69635009765625
+Match 5: Distance 1 - 370.29852294921875, Distance 2 - 392.3799133300781
+Match 6: Distance 1 - 264.3728332519531, Distance 2 - 291.0996398925781
+Match 7: Distance 1 - 249.22479248046875, Distance 2 - 282.4659423828125
+Match 8: Distance 1 - 396.69384765625, Distance 2 - 397.3965148925781
+Match 9: Distance 1 - 316.188232421875, Distance 2 - 342.9416809082031
+Match 10: Distance 1 - 336.304931640625, Distance 2 - 361.85357666015625
+673 matches passed Lowe's ratio test.
+285 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_18149355_2532015166.jpg_vs_31192053_99847530.jpg.png
+Found 3655 and 2992 keypoints in the images respectively.
+Found 3655 raw matches.
+Match 0: Distance 1 - 310.97265625, Distance 2 - 329.745361328125
+Match 1: Distance 1 - 194.85635375976562, Distance 2 - 228.3199462890625
+Match 2: Distance 1 - 334.78350830078125, Distance 2 - 334.95074462890625
+Match 3: Distance 1 - 178.37881469726562, Distance 2 - 188.36932373046875
+Match 4: Distance 1 - 342.4704284667969, Distance 2 - 359.9166564941406
+Match 5: Distance 1 - 369.9756774902344, Distance 2 - 374.9119873046875
+Match 6: Distance 1 - 140.26046752929688, Distance 2 - 288.9290466308594
+Match 7: Distance 1 - 317.6161193847656, Distance 2 - 340.802001953125
+Match 8: Distance 1 - 347.3816223144531, Distance 2 - 351.03704833984375
+Match 9: Distance 1 - 148.3812713623047, Distance 2 - 322.55078125
+Match 10: Distance 1 - 336.73431396484375, Distance 2 - 344.1656494140625
+721 matches passed Lowe's ratio test.
+339 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_18149355_2532015166.jpg_vs_53631371_144323144.jpg.png
+Found 3655 and 3146 keypoints in the images respectively.
+Found 3655 raw matches.
+Match 0: Distance 1 - 297.9345703125, Distance 2 - 321.1495056152344
+Match 1: Distance 1 - 242.90533447265625, Distance 2 - 268.81219482421875
+Match 2: Distance 1 - 279.5514221191406, Distance 2 - 313.1868591308594
+Match 3: Distance 1 - 213.31431579589844, Distance 2 - 225.20213317871094
+Match 4: Distance 1 - 330.41790771484375, Distance 2 - 337.37664794921875
+Match 5: Distance 1 - 312.4051818847656, Distance 2 - 323.5938720703125
+Match 6: Distance 1 - 152.39422607421875, Distance 2 - 233.70494079589844
+Match 7: Distance 1 - 242.63140869140625, Distance 2 - 305.7613525390625
+Match 8: Distance 1 - 330.32257080078125, Distance 2 - 367.8042907714844
+Match 9: Distance 1 - 274.251708984375, Distance 2 - 310.4883117675781
+Match 10: Distance 1 - 342.8687744140625, Distance 2 - 355.6515197753906
+693 matches passed Lowe's ratio test.
+360 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_18149355_2532015166.jpg_vs_66393650_5300086486.jpg.png
+Found 3655 and 2031 keypoints in the images respectively.
+Found 3655 raw matches.
+Match 0: Distance 1 - 310.8906555175781, Distance 2 - 353.0665588378906
+Match 1: Distance 1 - 232.96136474609375, Distance 2 - 235.9978790283203
+Match 2: Distance 1 - 257.9341125488281, Distance 2 - 308.61627197265625
+Match 3: Distance 1 - 240.75921630859375, Distance 2 - 254.80776977539062
+Match 4: Distance 1 - 386.1256408691406, Distance 2 - 390.8106994628906
+Match 5: Distance 1 - 359.56500244140625, Distance 2 - 360.8018798828125
+Match 6: Distance 1 - 281.9893493652344, Distance 2 - 306.5158996582031
+Match 7: Distance 1 - 298.92474365234375, Distance 2 - 326.2820739746094
+Match 8: Distance 1 - 357.9176025390625, Distance 2 - 375.5609130859375
+Match 9: Distance 1 - 325.3644104003906, Distance 2 - 335.0283508300781
+Match 10: Distance 1 - 292.1575012207031, Distance 2 - 375.4757080078125
+608 matches passed Lowe's ratio test.
+303 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_18149355_2532015166.jpg_vs_72728072_3851668437.jpg.png
+Found 3655 and 1981 keypoints in the images respectively.
+Found 3655 raw matches.
+Match 0: Distance 1 - 343.22296142578125, Distance 2 - 352.2612609863281
+Match 1: Distance 1 - 260.3132629394531, Distance 2 - 261.49951171875
+Match 2: Distance 1 - 324.1280517578125, Distance 2 - 343.17779541015625
+Match 3: Distance 1 - 246.26002502441406, Distance 2 - 247.44696044921875
+Match 4: Distance 1 - 375.86700439453125, Distance 2 - 393.2734375
+Match 5: Distance 1 - 325.3198547363281, Distance 2 - 378.4058532714844
+Match 6: Distance 1 - 220.12950134277344, Distance 2 - 261.0632019042969
+Match 7: Distance 1 - 266.0432434082031, Distance 2 - 313.0894470214844
+Match 8: Distance 1 - 379.2215576171875, Distance 2 - 395.73223876953125
+Match 9: Distance 1 - 311.89581298828125, Distance 2 - 317.9496765136719
+Match 10: Distance 1 - 372.8592224121094, Distance 2 - 373.9665832519531
+539 matches passed Lowe's ratio test.
+220 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_18149355_2532015166.jpg_vs_79727682_3945098100.jpg.png
+Found 3655 and 3014 keypoints in the images respectively.
+Found 3655 raw matches.
+Match 0: Distance 1 - 270.20733642578125, Distance 2 - 333.59857177734375
+Match 1: Distance 1 - 295.5215759277344, Distance 2 - 300.8238830566406
+Match 2: Distance 1 - 284.9631652832031, Distance 2 - 304.2712707519531
+Match 3: Distance 1 - 233.55726623535156, Distance 2 - 235.82408142089844
+Match 4: Distance 1 - 368.0625, Distance 2 - 378.43890380859375
+Match 5: Distance 1 - 391.74481201171875, Distance 2 - 405.2492980957031
+Match 6: Distance 1 - 268.30950927734375, Distance 2 - 286.42449951171875
+Match 7: Distance 1 - 285.31561279296875, Distance 2 - 327.1192321777344
+Match 8: Distance 1 - 341.3443908691406, Distance 2 - 351.4996337890625
+Match 9: Distance 1 - 330.35284423828125, Distance 2 - 348.2714538574219
+Match 10: Distance 1 - 341.96051025390625, Distance 2 - 361.9792785644531
+379 matches passed Lowe's ratio test.
+78 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_18149355_2532015166.jpg_vs_92010501_7538765550.jpg.png
+Found 3655 and 2776 keypoints in the images respectively.
+Found 3655 raw matches.
+Match 0: Distance 1 - 243.23240661621094, Distance 2 - 306.06207275390625
+Match 1: Distance 1 - 254.7999267578125, Distance 2 - 283.61065673828125
+Match 2: Distance 1 - 277.3896179199219, Distance 2 - 310.25311279296875
+Match 3: Distance 1 - 249.73585510253906, Distance 2 - 254.2616729736328
+Match 4: Distance 1 - 317.8427429199219, Distance 2 - 322.7522277832031
+Match 5: Distance 1 - 354.2315673828125, Distance 2 - 359.9041442871094
+Match 6: Distance 1 - 248.3082733154297, Distance 2 - 292.85491943359375
+Match 7: Distance 1 - 283.08477783203125, Distance 2 - 318.2121887207031
+Match 8: Distance 1 - 359.7610168457031, Distance 2 - 377.2187805175781
+Match 9: Distance 1 - 321.7949523925781, Distance 2 - 347.2117614746094
+Match 10: Distance 1 - 347.68951416015625, Distance 2 - 361.5964660644531
+422 matches passed Lowe's ratio test.
+66 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_18149355_2532015166.jpg_vs_92199010_423632152.jpg.png
+Found 3655 and 2584 keypoints in the images respectively.
+Found 3655 raw matches.
+Match 0: Distance 1 - 240.23321533203125, Distance 2 - 317.0457458496094
+Match 1: Distance 1 - 266.56707763671875, Distance 2 - 272.1727294921875
+Match 2: Distance 1 - 331.623291015625, Distance 2 - 346.99566650390625
+Match 3: Distance 1 - 249.32508850097656, Distance 2 - 253.9232177734375
+Match 4: Distance 1 - 362.1159973144531, Distance 2 - 365.9371643066406
+Match 5: Distance 1 - 346.73333740234375, Distance 2 - 381.5664978027344
+Match 6: Distance 1 - 270.5863952636719, Distance 2 - 273.5927734375
+Match 7: Distance 1 - 317.782958984375, Distance 2 - 318.2797546386719
+Match 8: Distance 1 - 395.6311340332031, Distance 2 - 397.3084411621094
+Match 9: Distance 1 - 354.32470703125, Distance 2 - 379.01318359375
+Match 10: Distance 1 - 342.08477783203125, Distance 2 - 370.4416198730469
+532 matches passed Lowe's ratio test.
+173 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_18149355_2532015166.jpg_vs_95405900_917617676.jpg.png
+Found 3042 and 3163 keypoints in the images respectively.
+Found 3042 raw matches.
+Match 0: Distance 1 - 293.73626708984375, Distance 2 - 296.4894714355469
+Match 1: Distance 1 - 210.7462921142578, Distance 2 - 213.7053985595703
+Match 2: Distance 1 - 364.9205322265625, Distance 2 - 387.57452392578125
+Match 3: Distance 1 - 370.935302734375, Distance 2 - 383.8697814941406
+Match 4: Distance 1 - 254.8999786376953, Distance 2 - 332.2754821777344
+Match 5: Distance 1 - 265.7799987792969, Distance 2 - 292.3268737792969
+Match 6: Distance 1 - 377.3287658691406, Distance 2 - 409.2224426269531
+Match 7: Distance 1 - 365.9371643066406, Distance 2 - 388.3117370605469
+Match 8: Distance 1 - 351.95452880859375, Distance 2 - 354.3656311035156
+Match 9: Distance 1 - 212.24514770507812, Distance 2 - 214.72308349609375
+Match 10: Distance 1 - 141.6298065185547, Distance 2 - 157.56585693359375
+334 matches passed Lowe's ratio test.
+47 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_21464353_8770120507.jpg_vs_27732591_4349424252.jpg.png
+Found 3042 and 2459 keypoints in the images respectively.
+Found 3042 raw matches.
+Match 0: Distance 1 - 303.4831237792969, Distance 2 - 310.42388916015625
+Match 1: Distance 1 - 215.3555145263672, Distance 2 - 217.82791137695312
+Match 2: Distance 1 - 346.3682861328125, Distance 2 - 352.6102600097656
+Match 3: Distance 1 - 378.2908935546875, Distance 2 - 405.8497314453125
+Match 4: Distance 1 - 354.2372131347656, Distance 2 - 361.939208984375
+Match 5: Distance 1 - 297.9261779785156, Distance 2 - 316.3226318359375
+Match 6: Distance 1 - 370.9299011230469, Distance 2 - 412.1031494140625
+Match 7: Distance 1 - 133.59266662597656, Distance 2 - 150.08331298828125
+Match 8: Distance 1 - 426.03521728515625, Distance 2 - 428.6058654785156
+Match 9: Distance 1 - 210.9312744140625, Distance 2 - 212.13674926757812
+Match 10: Distance 1 - 139.58868408203125, Distance 2 - 161.1490020751953
+568 matches passed Lowe's ratio test.
+238 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_21464353_8770120507.jpg_vs_31192053_99847530.jpg.png
+Found 3042 and 2992 keypoints in the images respectively.
+Found 3042 raw matches.
+Match 0: Distance 1 - 299.6848449707031, Distance 2 - 336.5204162597656
+Match 1: Distance 1 - 212.8966827392578, Distance 2 - 219.77488708496094
+Match 2: Distance 1 - 242.1631622314453, Distance 2 - 254.458251953125
+Match 3: Distance 1 - 373.0871276855469, Distance 2 - 388.6630859375
+Match 4: Distance 1 - 261.5970153808594, Distance 2 - 368.4114685058594
+Match 5: Distance 1 - 282.5597229003906, Distance 2 - 290.1878662109375
+Match 6: Distance 1 - 372.1719970703125, Distance 2 - 406.9361267089844
+Match 7: Distance 1 - 174.05746459960938, Distance 2 - 186.58509826660156
+Match 8: Distance 1 - 394.2689514160156, Distance 2 - 398.051513671875
+Match 9: Distance 1 - 200.79840087890625, Distance 2 - 209.2486572265625
+Match 10: Distance 1 - 139.74261474609375, Distance 2 - 140.64849853515625
+520 matches passed Lowe's ratio test.
+219 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_21464353_8770120507.jpg_vs_53631371_144323144.jpg.png
+Found 3042 and 3146 keypoints in the images respectively.
+Found 3042 raw matches.
+Match 0: Distance 1 - 328.4996337890625, Distance 2 - 329.2916564941406
+Match 1: Distance 1 - 226.8413543701172, Distance 2 - 229.2378692626953
+Match 2: Distance 1 - 304.31561279296875, Distance 2 - 339.1430358886719
+Match 3: Distance 1 - 351.5337829589844, Distance 2 - 373.36175537109375
+Match 4: Distance 1 - 299.1822204589844, Distance 2 - 353.9180603027344
+Match 5: Distance 1 - 277.31390380859375, Distance 2 - 309.0145568847656
+Match 6: Distance 1 - 368.84820556640625, Distance 2 - 389.1529235839844
+Match 7: Distance 1 - 158.21820068359375, Distance 2 - 160.0031280517578
+Match 8: Distance 1 - 331.51019287109375, Distance 2 - 344.641845703125
+Match 9: Distance 1 - 203.99510192871094, Distance 2 - 211.68136596679688
+Match 10: Distance 1 - 143.36317443847656, Distance 2 - 156.29139709472656
+483 matches passed Lowe's ratio test.
+192 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_21464353_8770120507.jpg_vs_66393650_5300086486.jpg.png
+Found 3042 and 2031 keypoints in the images respectively.
+Found 3042 raw matches.
+Match 0: Distance 1 - 347.61328125, Distance 2 - 347.7197265625
+Match 1: Distance 1 - 224.97555541992188, Distance 2 - 234.81695556640625
+Match 2: Distance 1 - 310.0854797363281, Distance 2 - 370.2728576660156
+Match 3: Distance 1 - 379.85919189453125, Distance 2 - 401.2368469238281
+Match 4: Distance 1 - 289.77923583984375, Distance 2 - 392.6359558105469
+Match 5: Distance 1 - 297.5835876464844, Distance 2 - 377.33538818359375
+Match 6: Distance 1 - 416.5765380859375, Distance 2 - 418.3682556152344
+Match 7: Distance 1 - 295.225341796875, Distance 2 - 299.16217041015625
+Match 8: Distance 1 - 380.9383239746094, Distance 2 - 389.98974609375
+Match 9: Distance 1 - 208.3530731201172, Distance 2 - 209.92379760742188
+Match 10: Distance 1 - 138.57489013671875, Distance 2 - 158.31298828125
+416 matches passed Lowe's ratio test.
+177 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_21464353_8770120507.jpg_vs_72728072_3851668437.jpg.png
+Found 3042 and 1981 keypoints in the images respectively.
+Found 3042 raw matches.
+Match 0: Distance 1 - 320.96728515625, Distance 2 - 325.4258728027344
+Match 1: Distance 1 - 200.61904907226562, Distance 2 - 207.61984252929688
+Match 2: Distance 1 - 345.7701416015625, Distance 2 - 385.8276672363281
+Match 3: Distance 1 - 361.00555419921875, Distance 2 - 369.5808410644531
+Match 4: Distance 1 - 266.01129150390625, Distance 2 - 290.5666809082031
+Match 5: Distance 1 - 279.8410339355469, Distance 2 - 288.36956787109375
+Match 6: Distance 1 - 405.1135559082031, Distance 2 - 409.2175598144531
+Match 7: Distance 1 - 364.14556884765625, Distance 2 - 364.9219055175781
+Match 8: Distance 1 - 387.95489501953125, Distance 2 - 405.8817443847656
+Match 9: Distance 1 - 184.35020446777344, Distance 2 - 185.6986846923828
+Match 10: Distance 1 - 144.21165466308594, Distance 2 - 169.8675994873047
+478 matches passed Lowe's ratio test.
+200 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_21464353_8770120507.jpg_vs_79727682_3945098100.jpg.png
+Found 3042 and 3014 keypoints in the images respectively.
+Found 3042 raw matches.
+Match 0: Distance 1 - 302.55908203125, Distance 2 - 328.15240478515625
+Match 1: Distance 1 - 193.7085418701172, Distance 2 - 209.773681640625
+Match 2: Distance 1 - 348.89825439453125, Distance 2 - 355.3139343261719
+Match 3: Distance 1 - 343.9244079589844, Distance 2 - 365.4367370605469
+Match 4: Distance 1 - 310.05645751953125, Distance 2 - 312.71234130859375
+Match 5: Distance 1 - 360.5606689453125, Distance 2 - 368.94580078125
+Match 6: Distance 1 - 411.1581115722656, Distance 2 - 417.3320007324219
+Match 7: Distance 1 - 305.92156982421875, Distance 2 - 312.2034606933594
+Match 8: Distance 1 - 394.0862731933594, Distance 2 - 404.5157470703125
+Match 9: Distance 1 - 198.66554260253906, Distance 2 - 214.9022979736328
+Match 10: Distance 1 - 156.63014221191406, Distance 2 - 156.98089599609375
+326 matches passed Lowe's ratio test.
+73 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_21464353_8770120507.jpg_vs_92010501_7538765550.jpg.png
+Found 3042 and 2776 keypoints in the images respectively.
+Found 3042 raw matches.
+Match 0: Distance 1 - 330.5283508300781, Distance 2 - 332.4123840332031
+Match 1: Distance 1 - 210.20228576660156, Distance 2 - 214.2405242919922
+Match 2: Distance 1 - 280.4122009277344, Distance 2 - 305.02294921875
+Match 3: Distance 1 - 314.58544921875, Distance 2 - 362.2623291015625
+Match 4: Distance 1 - 336.3911437988281, Distance 2 - 395.9987487792969
+Match 5: Distance 1 - 330.8171691894531, Distance 2 - 343.7571716308594
+Match 6: Distance 1 - 378.65155029296875, Distance 2 - 399.39703369140625
+Match 7: Distance 1 - 177.8960418701172, Distance 2 - 223.65821838378906
+Match 8: Distance 1 - 387.3616027832031, Distance 2 - 399.3995361328125
+Match 9: Distance 1 - 228.79029846191406, Distance 2 - 231.8771209716797
+Match 10: Distance 1 - 144.77569580078125, Distance 2 - 155.39627075195312
+296 matches passed Lowe's ratio test.
+32 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_21464353_8770120507.jpg_vs_92199010_423632152.jpg.png
+Found 3042 and 2584 keypoints in the images respectively.
+Found 3042 raw matches.
+Match 0: Distance 1 - 286.176513671875, Distance 2 - 313.7499084472656
+Match 1: Distance 1 - 196.7612762451172, Distance 2 - 213.7732391357422
+Match 2: Distance 1 - 219.7066192626953, Distance 2 - 223.55088806152344
+Match 3: Distance 1 - 369.3250732421875, Distance 2 - 386.3754577636719
+Match 4: Distance 1 - 325.6178894042969, Distance 2 - 384.259033203125
+Match 5: Distance 1 - 330.9954833984375, Distance 2 - 390.8068542480469
+Match 6: Distance 1 - 373.8462219238281, Distance 2 - 393.79815673828125
+Match 7: Distance 1 - 130.7363739013672, Distance 2 - 136.92698669433594
+Match 8: Distance 1 - 371.8628845214844, Distance 2 - 424.26287841796875
+Match 9: Distance 1 - 217.1520233154297, Distance 2 - 227.52362060546875
+Match 10: Distance 1 - 135.11476135253906, Distance 2 - 137.57907104492188
+442 matches passed Lowe's ratio test.
+162 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_21464353_8770120507.jpg_vs_95405900_917617676.jpg.png
+Found 3163 and 2459 keypoints in the images respectively.
+Found 3163 raw matches.
+Match 0: Distance 1 - 281.13519287109375, Distance 2 - 292.0513610839844
+Match 1: Distance 1 - 376.6231689453125, Distance 2 - 399.2054748535156
+Match 2: Distance 1 - 334.9925231933594, Distance 2 - 345.2173156738281
+Match 3: Distance 1 - 234.0640869140625, Distance 2 - 246.6880645751953
+Match 4: Distance 1 - 339.9190979003906, Distance 2 - 367.4425048828125
+Match 5: Distance 1 - 319.49334716796875, Distance 2 - 322.1629943847656
+Match 6: Distance 1 - 358.8620910644531, Distance 2 - 370.88812255859375
+Match 7: Distance 1 - 349.7670593261719, Distance 2 - 369.7580261230469
+Match 8: Distance 1 - 349.6097717285156, Distance 2 - 385.8328552246094
+Match 9: Distance 1 - 358.4368896484375, Distance 2 - 391.1265869140625
+Match 10: Distance 1 - 331.37139892578125, Distance 2 - 354.5447692871094
+332 matches passed Lowe's ratio test.
+58 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_27732591_4349424252.jpg_vs_31192053_99847530.jpg.png
+Found 3163 and 2992 keypoints in the images respectively.
+Found 3163 raw matches.
+Match 0: Distance 1 - 335.54583740234375, Distance 2 - 351.2420959472656
+Match 1: Distance 1 - 378.0555419921875, Distance 2 - 389.36614990234375
+Match 2: Distance 1 - 273.0750732421875, Distance 2 - 293.2984924316406
+Match 3: Distance 1 - 229.30764770507812, Distance 2 - 238.564453125
+Match 4: Distance 1 - 317.72943115234375, Distance 2 - 377.8227233886719
+Match 5: Distance 1 - 355.0323791503906, Distance 2 - 365.72802734375
+Match 6: Distance 1 - 334.7626037597656, Distance 2 - 370.29852294921875
+Match 7: Distance 1 - 311.3326110839844, Distance 2 - 323.23211669921875
+Match 8: Distance 1 - 341.5084228515625, Distance 2 - 350.9302062988281
+Match 9: Distance 1 - 375.9029235839844, Distance 2 - 397.2455139160156
+Match 10: Distance 1 - 329.6528625488281, Distance 2 - 330.6206359863281
+313 matches passed Lowe's ratio test.
+62 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_27732591_4349424252.jpg_vs_53631371_144323144.jpg.png
+Found 3163 and 3146 keypoints in the images respectively.
+Found 3163 raw matches.
+Match 0: Distance 1 - 289.5306396484375, Distance 2 - 291.551025390625
+Match 1: Distance 1 - 392.8511047363281, Distance 2 - 399.0200500488281
+Match 2: Distance 1 - 243.20773315429688, Distance 2 - 304.435546875
+Match 3: Distance 1 - 213.30259704589844, Distance 2 - 219.74530029296875
+Match 4: Distance 1 - 355.0436706542969, Distance 2 - 366.8773498535156
+Match 5: Distance 1 - 361.0152282714844, Distance 2 - 369.5334777832031
+Match 6: Distance 1 - 376.55279541015625, Distance 2 - 379.7762451171875
+Match 7: Distance 1 - 313.2698669433594, Distance 2 - 319.5637512207031
+Match 8: Distance 1 - 335.0671691894531, Distance 2 - 360.0416564941406
+Match 9: Distance 1 - 337.8934631347656, Distance 2 - 346.0563659667969
+Match 10: Distance 1 - 281.5901184082031, Distance 2 - 326.9021301269531
+331 matches passed Lowe's ratio test.
+46 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_27732591_4349424252.jpg_vs_66393650_5300086486.jpg.png
+Found 3163 and 2031 keypoints in the images respectively.
+Found 3163 raw matches.
+Match 0: Distance 1 - 276.2535095214844, Distance 2 - 284.6980895996094
+Match 1: Distance 1 - 371.7915954589844, Distance 2 - 395.0936584472656
+Match 2: Distance 1 - 273.02197265625, Distance 2 - 280.37652587890625
+Match 3: Distance 1 - 250.57733154296875, Distance 2 - 254.35604858398438
+Match 4: Distance 1 - 319.7921142578125, Distance 2 - 334.2588806152344
+Match 5: Distance 1 - 331.0558776855469, Distance 2 - 364.3309020996094
+Match 6: Distance 1 - 358.2275695800781, Distance 2 - 367.9388427734375
+Match 7: Distance 1 - 297.19354248046875, Distance 2 - 316.291015625
+Match 8: Distance 1 - 283.8626403808594, Distance 2 - 379.4930725097656
+Match 9: Distance 1 - 362.36859130859375, Distance 2 - 364.73004150390625
+Match 10: Distance 1 - 375.6833801269531, Distance 2 - 384.8623046875
+272 matches passed Lowe's ratio test.
+34 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_27732591_4349424252.jpg_vs_72728072_3851668437.jpg.png
+Found 3163 and 1981 keypoints in the images respectively.
+Found 3163 raw matches.
+Match 0: Distance 1 - 291.17864990234375, Distance 2 - 305.13604736328125
+Match 1: Distance 1 - 364.1826477050781, Distance 2 - 383.35491943359375
+Match 2: Distance 1 - 240.5618438720703, Distance 2 - 308.97412109375
+Match 3: Distance 1 - 222.8654327392578, Distance 2 - 255.30569458007812
+Match 4: Distance 1 - 305.7858581542969, Distance 2 - 346.14013671875
+Match 5: Distance 1 - 339.3125305175781, Distance 2 - 380.7978515625
+Match 6: Distance 1 - 393.8286437988281, Distance 2 - 405.6155700683594
+Match 7: Distance 1 - 336.6155090332031, Distance 2 - 341.65771484375
+Match 8: Distance 1 - 384.568603515625, Distance 2 - 385.028564453125
+Match 9: Distance 1 - 354.0296630859375, Distance 2 - 363.034423828125
+Match 10: Distance 1 - 232.049560546875, Distance 2 - 303.89801025390625
+317 matches passed Lowe's ratio test.
+68 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_27732591_4349424252.jpg_vs_79727682_3945098100.jpg.png
+Found 3163 and 3014 keypoints in the images respectively.
+Found 3163 raw matches.
+Match 0: Distance 1 - 290.6733703613281, Distance 2 - 302.7606201171875
+Match 1: Distance 1 - 388.3542175292969, Distance 2 - 396.5085144042969
+Match 2: Distance 1 - 276.0489196777344, Distance 2 - 277.4400939941406
+Match 3: Distance 1 - 235.4315185546875, Distance 2 - 236.35989379882812
+Match 4: Distance 1 - 310.4383850097656, Distance 2 - 317.7499084472656
+Match 5: Distance 1 - 318.618896484375, Distance 2 - 340.9604187011719
+Match 6: Distance 1 - 357.6101379394531, Distance 2 - 378.726806640625
+Match 7: Distance 1 - 304.43719482421875, Distance 2 - 322.6763000488281
+Match 8: Distance 1 - 341.7645263671875, Distance 2 - 373.44879150390625
+Match 9: Distance 1 - 345.92340087890625, Distance 2 - 354.2710876464844
+Match 10: Distance 1 - 334.6147155761719, Distance 2 - 389.3597412109375
+276 matches passed Lowe's ratio test.
+48 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_27732591_4349424252.jpg_vs_92010501_7538765550.jpg.png
+Found 3163 and 2776 keypoints in the images respectively.
+Found 3163 raw matches.
+Match 0: Distance 1 - 328.5513610839844, Distance 2 - 338.2646789550781
+Match 1: Distance 1 - 371.8749694824219, Distance 2 - 398.14947509765625
+Match 2: Distance 1 - 278.01617431640625, Distance 2 - 305.3326110839844
+Match 3: Distance 1 - 241.3648681640625, Distance 2 - 254.53880310058594
+Match 4: Distance 1 - 344.8448791503906, Distance 2 - 368.6651611328125
+Match 5: Distance 1 - 378.798095703125, Distance 2 - 378.84033203125
+Match 6: Distance 1 - 384.6348876953125, Distance 2 - 387.133056640625
+Match 7: Distance 1 - 322.9303283691406, Distance 2 - 367.5744934082031
+Match 8: Distance 1 - 337.5144348144531, Distance 2 - 355.8482971191406
+Match 9: Distance 1 - 358.4717712402344, Distance 2 - 371.0121154785156
+Match 10: Distance 1 - 380.76763916015625, Distance 2 - 390.9040832519531
+266 matches passed Lowe's ratio test.
+8 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_27732591_4349424252.jpg_vs_92199010_423632152.jpg.png
+Found 3163 and 2584 keypoints in the images respectively.
+Found 3163 raw matches.
+Match 0: Distance 1 - 321.4902648925781, Distance 2 - 325.2398986816406
+Match 1: Distance 1 - 382.29046630859375, Distance 2 - 403.0942687988281
+Match 2: Distance 1 - 305.823486328125, Distance 2 - 309.9306335449219
+Match 3: Distance 1 - 239.7686309814453, Distance 2 - 246.1259765625
+Match 4: Distance 1 - 334.1766052246094, Distance 2 - 337.63739013671875
+Match 5: Distance 1 - 355.9480285644531, Distance 2 - 356.6118469238281
+Match 6: Distance 1 - 332.0572204589844, Distance 2 - 353.06939697265625
+Match 7: Distance 1 - 325.3198547363281, Distance 2 - 362.35205078125
+Match 8: Distance 1 - 325.70233154296875, Distance 2 - 346.6612243652344
+Match 9: Distance 1 - 371.3394775390625, Distance 2 - 379.1846618652344
+Match 10: Distance 1 - 346.12860107421875, Distance 2 - 357.2590026855469
+272 matches passed Lowe's ratio test.
+20 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_27732591_4349424252.jpg_vs_95405900_917617676.jpg.png
+Found 2459 and 2992 keypoints in the images respectively.
+Found 2459 raw matches.
+Match 0: Distance 1 - 373.60272216796875, Distance 2 - 380.7650146484375
+Match 1: Distance 1 - 344.9188232421875, Distance 2 - 349.29071044921875
+Match 2: Distance 1 - 214.0513916015625, Distance 2 - 234.76583862304688
+Match 3: Distance 1 - 330.6553955078125, Distance 2 - 347.8462219238281
+Match 4: Distance 1 - 306.08984375, Distance 2 - 309.962890625
+Match 5: Distance 1 - 355.15631103515625, Distance 2 - 364.0274658203125
+Match 6: Distance 1 - 319.06427001953125, Distance 2 - 337.2195129394531
+Match 7: Distance 1 - 339.1799011230469, Distance 2 - 361.06787109375
+Match 8: Distance 1 - 315.7102966308594, Distance 2 - 327.9817199707031
+Match 9: Distance 1 - 211.28179931640625, Distance 2 - 279.100341796875
+Match 10: Distance 1 - 354.40936279296875, Distance 2 - 356.7982482910156
+652 matches passed Lowe's ratio test.
+344 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_31192053_99847530.jpg_vs_53631371_144323144.jpg.png
+Found 2459 and 3146 keypoints in the images respectively.
+Found 2459 raw matches.
+Match 0: Distance 1 - 359.78466796875, Distance 2 - 389.4136657714844
+Match 1: Distance 1 - 362.4058532714844, Distance 2 - 363.0082702636719
+Match 2: Distance 1 - 216.26141357421875, Distance 2 - 252.18643188476562
+Match 3: Distance 1 - 375.2585754394531, Distance 2 - 385.9857482910156
+Match 4: Distance 1 - 226.5303497314453, Distance 2 - 266.4432373046875
+Match 5: Distance 1 - 326.4919738769531, Distance 2 - 371.2101745605469
+Match 6: Distance 1 - 327.9771423339844, Distance 2 - 359.7957763671875
+Match 7: Distance 1 - 345.2332458496094, Distance 2 - 362.33685302734375
+Match 8: Distance 1 - 317.48858642578125, Distance 2 - 349.1632995605469
+Match 9: Distance 1 - 140.13922119140625, Distance 2 - 150.75144958496094
+Match 10: Distance 1 - 218.35980224609375, Distance 2 - 222.7218017578125
+548 matches passed Lowe's ratio test.
+280 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_31192053_99847530.jpg_vs_66393650_5300086486.jpg.png
+Found 2459 and 2031 keypoints in the images respectively.
+Found 2459 raw matches.
+Match 0: Distance 1 - 389.7896728515625, Distance 2 - 404.1336364746094
+Match 1: Distance 1 - 359.6150817871094, Distance 2 - 360.4594421386719
+Match 2: Distance 1 - 191.8228302001953, Distance 2 - 275.0381774902344
+Match 3: Distance 1 - 326.3678894042969, Distance 2 - 350.03570556640625
+Match 4: Distance 1 - 275.5213317871094, Distance 2 - 298.60174560546875
+Match 5: Distance 1 - 367.43707275390625, Distance 2 - 374.4449157714844
+Match 6: Distance 1 - 300.923583984375, Distance 2 - 302.23004150390625
+Match 7: Distance 1 - 333.6510009765625, Distance 2 - 345.26947021484375
+Match 8: Distance 1 - 297.53656005859375, Distance 2 - 344.08282470703125
+Match 9: Distance 1 - 203.5386962890625, Distance 2 - 221.4158935546875
+Match 10: Distance 1 - 184.4098663330078, Distance 2 - 250.74688720703125
+354 matches passed Lowe's ratio test.
+179 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_31192053_99847530.jpg_vs_72728072_3851668437.jpg.png
+Found 2459 and 1981 keypoints in the images respectively.
+Found 2459 raw matches.
+Match 0: Distance 1 - 342.85565185546875, Distance 2 - 383.7577209472656
+Match 1: Distance 1 - 363.23822021484375, Distance 2 - 367.0708312988281
+Match 2: Distance 1 - 214.4248046875, Distance 2 - 217.490234375
+Match 3: Distance 1 - 343.78192138671875, Distance 2 - 348.3403625488281
+Match 4: Distance 1 - 263.3438720703125, Distance 2 - 263.391357421875
+Match 5: Distance 1 - 384.4892578125, Distance 2 - 389.18505859375
+Match 6: Distance 1 - 344.3559265136719, Distance 2 - 349.636962890625
+Match 7: Distance 1 - 349.9485778808594, Distance 2 - 351.3403015136719
+Match 8: Distance 1 - 320.9080810546875, Distance 2 - 330.17266845703125
+Match 9: Distance 1 - 287.5517272949219, Distance 2 - 370.1432189941406
+Match 10: Distance 1 - 280.87542724609375, Distance 2 - 347.2880554199219
+490 matches passed Lowe's ratio test.
+267 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_31192053_99847530.jpg_vs_79727682_3945098100.jpg.png
+Found 2459 and 3014 keypoints in the images respectively.
+Found 2459 raw matches.
+Match 0: Distance 1 - 384.27593994140625, Distance 2 - 404.7270812988281
+Match 1: Distance 1 - 317.8128356933594, Distance 2 - 386.23309326171875
+Match 2: Distance 1 - 255.10586547851562, Distance 2 - 299.0267639160156
+Match 3: Distance 1 - 276.75982666015625, Distance 2 - 303.51605224609375
+Match 4: Distance 1 - 234.92552185058594, Distance 2 - 275.0981750488281
+Match 5: Distance 1 - 316.188232421875, Distance 2 - 321.39849853515625
+Match 6: Distance 1 - 303.3562316894531, Distance 2 - 348.9727783203125
+Match 7: Distance 1 - 299.1437683105469, Distance 2 - 367.61529541015625
+Match 8: Distance 1 - 277.2489929199219, Distance 2 - 300.5195617675781
+Match 9: Distance 1 - 291.3623046875, Distance 2 - 341.3004455566406
+Match 10: Distance 1 - 265.62567138671875, Distance 2 - 297.01177978515625
+362 matches passed Lowe's ratio test.
+119 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_31192053_99847530.jpg_vs_92010501_7538765550.jpg.png
+Found 2459 and 2776 keypoints in the images respectively.
+Found 2459 raw matches.
+Match 0: Distance 1 - 404.2103271484375, Distance 2 - 406.2733154296875
+Match 1: Distance 1 - 356.9888000488281, Distance 2 - 393.45013427734375
+Match 2: Distance 1 - 300.66259765625, Distance 2 - 320.9283447265625
+Match 3: Distance 1 - 289.5444641113281, Distance 2 - 314.4566650390625
+Match 4: Distance 1 - 277.7552795410156, Distance 2 - 292.9129638671875
+Match 5: Distance 1 - 370.3700866699219, Distance 2 - 379.8420715332031
+Match 6: Distance 1 - 342.47772216796875, Distance 2 - 374.84930419921875
+Match 7: Distance 1 - 352.6187744140625, Distance 2 - 371.80908203125
+Match 8: Distance 1 - 322.8079833984375, Distance 2 - 328.9012145996094
+Match 9: Distance 1 - 159.27334594726562, Distance 2 - 207.56204223632812
+Match 10: Distance 1 - 316.61175537109375, Distance 2 - 319.80462646484375
+303 matches passed Lowe's ratio test.
+43 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_31192053_99847530.jpg_vs_92199010_423632152.jpg.png
+Found 2459 and 2584 keypoints in the images respectively.
+Found 2459 raw matches.
+Match 0: Distance 1 - 371.53466796875, Distance 2 - 389.78582763671875
+Match 1: Distance 1 - 331.6760559082031, Distance 2 - 353.0325622558594
+Match 2: Distance 1 - 207.32342529296875, Distance 2 - 233.46519470214844
+Match 3: Distance 1 - 331.938232421875, Distance 2 - 339.1518859863281
+Match 4: Distance 1 - 286.26385498046875, Distance 2 - 297.61383056640625
+Match 5: Distance 1 - 353.1982421875, Distance 2 - 369.0094909667969
+Match 6: Distance 1 - 376.170166015625, Distance 2 - 376.8925476074219
+Match 7: Distance 1 - 349.26495361328125, Distance 2 - 356.34393310546875
+Match 8: Distance 1 - 211.22262573242188, Distance 2 - 324.81842041015625
+Match 9: Distance 1 - 172.1104278564453, Distance 2 - 198.9723663330078
+Match 10: Distance 1 - 273.5653381347656, Distance 2 - 297.6474304199219
+420 matches passed Lowe's ratio test.
+160 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_31192053_99847530.jpg_vs_95405900_917617676.jpg.png
+Found 2992 and 3146 keypoints in the images respectively.
+Found 2992 raw matches.
+Match 0: Distance 1 - 282.11346435546875, Distance 2 - 282.12762451171875
+Match 1: Distance 1 - 365.0794372558594, Distance 2 - 377.8849182128906
+Match 2: Distance 1 - 181.36427307128906, Distance 2 - 190.06051635742188
+Match 3: Distance 1 - 318.62518310546875, Distance 2 - 319.4166564941406
+Match 4: Distance 1 - 328.6700439453125, Distance 2 - 347.5514221191406
+Match 5: Distance 1 - 188.5682830810547, Distance 2 - 208.3722686767578
+Match 6: Distance 1 - 241.747802734375, Distance 2 - 255.81634521484375
+Match 7: Distance 1 - 341.6884460449219, Distance 2 - 354.17791748046875
+Match 8: Distance 1 - 342.99853515625, Distance 2 - 371.9260559082031
+Match 9: Distance 1 - 281.3858642578125, Distance 2 - 302.7886962890625
+Match 10: Distance 1 - 168.73944091796875, Distance 2 - 171.80221557617188
+608 matches passed Lowe's ratio test.
+339 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_53631371_144323144.jpg_vs_66393650_5300086486.jpg.png
+Found 2992 and 2031 keypoints in the images respectively.
+Found 2992 raw matches.
+Match 0: Distance 1 - 375.8630065917969, Distance 2 - 377.4029541015625
+Match 1: Distance 1 - 345.6558837890625, Distance 2 - 354.2809753417969
+Match 2: Distance 1 - 265.981201171875, Distance 2 - 279.2651062011719
+Match 3: Distance 1 - 309.7644348144531, Distance 2 - 314.17510986328125
+Match 4: Distance 1 - 320.57916259765625, Distance 2 - 347.20599365234375
+Match 5: Distance 1 - 209.56382751464844, Distance 2 - 215.32301330566406
+Match 6: Distance 1 - 233.5101776123047, Distance 2 - 241.66712951660156
+Match 7: Distance 1 - 275.3089294433594, Distance 2 - 351.8948669433594
+Match 8: Distance 1 - 315.28082275390625, Distance 2 - 346.6871643066406
+Match 9: Distance 1 - 252.63412475585938, Distance 2 - 300.0299987792969
+Match 10: Distance 1 - 242.80856323242188, Distance 2 - 244.99183654785156
+439 matches passed Lowe's ratio test.
+176 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_53631371_144323144.jpg_vs_72728072_3851668437.jpg.png
+Found 2992 and 1981 keypoints in the images respectively.
+Found 2992 raw matches.
+Match 0: Distance 1 - 261.1972351074219, Distance 2 - 286.3354797363281
+Match 1: Distance 1 - 331.70318603515625, Distance 2 - 337.44183349609375
+Match 2: Distance 1 - 339.3228454589844, Distance 2 - 357.1134338378906
+Match 3: Distance 1 - 301.4067077636719, Distance 2 - 317.9087829589844
+Match 4: Distance 1 - 327.4538269042969, Distance 2 - 349.7113037109375
+Match 5: Distance 1 - 185.66098022460938, Distance 2 - 215.26031494140625
+Match 6: Distance 1 - 234.84889221191406, Distance 2 - 236.91770935058594
+Match 7: Distance 1 - 364.6395568847656, Distance 2 - 388.58203125
+Match 8: Distance 1 - 321.7685546875, Distance 2 - 358.1424255371094
+Match 9: Distance 1 - 274.3118591308594, Distance 2 - 326.9541320800781
+Match 10: Distance 1 - 398.35284423828125, Distance 2 - 406.05047607421875
+516 matches passed Lowe's ratio test.
+270 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_53631371_144323144.jpg_vs_79727682_3945098100.jpg.png
+Found 2992 and 3014 keypoints in the images respectively.
+Found 2992 raw matches.
+Match 0: Distance 1 - 294.34674072265625, Distance 2 - 313.2347412109375
+Match 1: Distance 1 - 393.02545166015625, Distance 2 - 400.7530517578125
+Match 2: Distance 1 - 171.21331787109375, Distance 2 - 304.3665466308594
+Match 3: Distance 1 - 307.26861572265625, Distance 2 - 330.63726806640625
+Match 4: Distance 1 - 329.3948974609375, Distance 2 - 333.7499084472656
+Match 5: Distance 1 - 221.90538024902344, Distance 2 - 230.18470764160156
+Match 6: Distance 1 - 247.45303344726562, Distance 2 - 250.34376525878906
+Match 7: Distance 1 - 342.0789489746094, Distance 2 - 364.533935546875
+Match 8: Distance 1 - 304.2219543457031, Distance 2 - 309.7289123535156
+Match 9: Distance 1 - 284.9017333984375, Distance 2 - 286.043701171875
+Match 10: Distance 1 - 302.7110900878906, Distance 2 - 391.4371032714844
+347 matches passed Lowe's ratio test.
+123 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_53631371_144323144.jpg_vs_92010501_7538765550.jpg.png
+Found 2992 and 2776 keypoints in the images respectively.
+Found 2992 raw matches.
+Match 0: Distance 1 - 348.8996887207031, Distance 2 - 360.696533203125
+Match 1: Distance 1 - 397.6317443847656, Distance 2 - 397.9623107910156
+Match 2: Distance 1 - 240.45166015625, Distance 2 - 249.5115203857422
+Match 3: Distance 1 - 322.0885009765625, Distance 2 - 356.8963317871094
+Match 4: Distance 1 - 279.6211853027344, Distance 2 - 303.993408203125
+Match 5: Distance 1 - 223.9106903076172, Distance 2 - 249.2468719482422
+Match 6: Distance 1 - 240.11663818359375, Distance 2 - 257.8507385253906
+Match 7: Distance 1 - 367.08038330078125, Distance 2 - 375.81378173828125
+Match 8: Distance 1 - 315.6247863769531, Distance 2 - 325.7007751464844
+Match 9: Distance 1 - 258.7411804199219, Distance 2 - 281.9237365722656
+Match 10: Distance 1 - 201.3951416015625, Distance 2 - 235.18502807617188
+371 matches passed Lowe's ratio test.
+51 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_53631371_144323144.jpg_vs_92199010_423632152.jpg.png
+Found 2992 and 2584 keypoints in the images respectively.
+Found 2992 raw matches.
+Match 0: Distance 1 - 296.9915771484375, Distance 2 - 300.39306640625
+Match 1: Distance 1 - 310.3642883300781, Distance 2 - 396.1805114746094
+Match 2: Distance 1 - 182.28274536132812, Distance 2 - 193.34683227539062
+Match 3: Distance 1 - 344.60845947265625, Distance 2 - 357.29541015625
+Match 4: Distance 1 - 322.6236267089844, Distance 2 - 331.1570739746094
+Match 5: Distance 1 - 224.4593505859375, Distance 2 - 229.41883850097656
+Match 6: Distance 1 - 247.8951416015625, Distance 2 - 248.82322692871094
+Match 7: Distance 1 - 372.82568359375, Distance 2 - 383.62872314453125
+Match 8: Distance 1 - 338.2750244140625, Distance 2 - 371.8951416015625
+Match 9: Distance 1 - 275.4160461425781, Distance 2 - 293.2695007324219
+Match 10: Distance 1 - 173.7757110595703, Distance 2 - 184.51287841796875
+405 matches passed Lowe's ratio test.
+147 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_53631371_144323144.jpg_vs_95405900_917617676.jpg.png
+Found 3146 and 2031 keypoints in the images respectively.
+Found 3146 raw matches.
+Match 0: Distance 1 - 267.2021789550781, Distance 2 - 298.6117858886719
+Match 1: Distance 1 - 347.5989074707031, Distance 2 - 351.5480041503906
+Match 2: Distance 1 - 142.86007690429688, Distance 2 - 156.7418212890625
+Match 3: Distance 1 - 303.1979675292969, Distance 2 - 307.7596435546875
+Match 4: Distance 1 - 295.8411865234375, Distance 2 - 304.8064880371094
+Match 5: Distance 1 - 274.9327087402344, Distance 2 - 318.1697692871094
+Match 6: Distance 1 - 177.9297637939453, Distance 2 - 204.84384155273438
+Match 7: Distance 1 - 386.8836975097656, Distance 2 - 387.2879943847656
+Match 8: Distance 1 - 358.66278076171875, Distance 2 - 365.2327880859375
+Match 9: Distance 1 - 325.6593322753906, Distance 2 - 358.41876220703125
+Match 10: Distance 1 - 339.29486083984375, Distance 2 - 343.5971374511719
+454 matches passed Lowe's ratio test.
+138 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_66393650_5300086486.jpg_vs_72728072_3851668437.jpg.png
+Found 3146 and 1981 keypoints in the images respectively.
+Found 3146 raw matches.
+Match 0: Distance 1 - 304.86883544921875, Distance 2 - 321.30670166015625
+Match 1: Distance 1 - 234.38429260253906, Distance 2 - 332.25140380859375
+Match 2: Distance 1 - 109.2748794555664, Distance 2 - 125.67417907714844
+Match 3: Distance 1 - 337.32476806640625, Distance 2 - 337.4270324707031
+Match 4: Distance 1 - 317.8914794921875, Distance 2 - 319.1144104003906
+Match 5: Distance 1 - 312.7682800292969, Distance 2 - 322.5492248535156
+Match 6: Distance 1 - 159.11317443847656, Distance 2 - 171.19871520996094
+Match 7: Distance 1 - 325.17071533203125, Distance 2 - 328.9924011230469
+Match 8: Distance 1 - 339.6247863769531, Distance 2 - 343.7673645019531
+Match 9: Distance 1 - 328.3382263183594, Distance 2 - 354.4164123535156
+Match 10: Distance 1 - 299.3927307128906, Distance 2 - 351.3260498046875
+537 matches passed Lowe's ratio test.
+258 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_66393650_5300086486.jpg_vs_79727682_3945098100.jpg.png
+Found 3146 and 3014 keypoints in the images respectively.
+Found 3146 raw matches.
+Match 0: Distance 1 - 276.35845947265625, Distance 2 - 282.8710021972656
+Match 1: Distance 1 - 309.61749267578125, Distance 2 - 328.4067687988281
+Match 2: Distance 1 - 121.29303741455078, Distance 2 - 163.3125762939453
+Match 3: Distance 1 - 246.27830505371094, Distance 2 - 267.3256530761719
+Match 4: Distance 1 - 285.0087585449219, Distance 2 - 294.83892822265625
+Match 5: Distance 1 - 287.60736083984375, Distance 2 - 306.91693115234375
+Match 6: Distance 1 - 150.4858856201172, Distance 2 - 152.9901885986328
+Match 7: Distance 1 - 324.7552795410156, Distance 2 - 345.20428466796875
+Match 8: Distance 1 - 363.15423583984375, Distance 2 - 365.6104431152344
+Match 9: Distance 1 - 314.5059509277344, Distance 2 - 367.04632568359375
+Match 10: Distance 1 - 304.3698425292969, Distance 2 - 320.83172607421875
+407 matches passed Lowe's ratio test.
+99 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_66393650_5300086486.jpg_vs_92010501_7538765550.jpg.png
+Found 3146 and 2776 keypoints in the images respectively.
+Found 3146 raw matches.
+Match 0: Distance 1 - 264.7527160644531, Distance 2 - 308.8268127441406
+Match 1: Distance 1 - 336.612548828125, Distance 2 - 370.1526794433594
+Match 2: Distance 1 - 165.01817321777344, Distance 2 - 167.4932861328125
+Match 3: Distance 1 - 320.0062561035156, Distance 2 - 332.9023742675781
+Match 4: Distance 1 - 298.6402587890625, Distance 2 - 317.70111083984375
+Match 5: Distance 1 - 320.85821533203125, Distance 2 - 329.9014892578125
+Match 6: Distance 1 - 180.60731506347656, Distance 2 - 190.1709747314453
+Match 7: Distance 1 - 290.66131591796875, Distance 2 - 297.03533935546875
+Match 8: Distance 1 - 314.13531494140625, Distance 2 - 343.2375183105469
+Match 9: Distance 1 - 321.8213806152344, Distance 2 - 382.7022399902344
+Match 10: Distance 1 - 312.6627502441406, Distance 2 - 326.0889587402344
+377 matches passed Lowe's ratio test.
+82 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_66393650_5300086486.jpg_vs_92199010_423632152.jpg.png
+Found 3146 and 2584 keypoints in the images respectively.
+Found 3146 raw matches.
+Match 0: Distance 1 - 265.4957580566406, Distance 2 - 280.4603271484375
+Match 1: Distance 1 - 354.4784851074219, Distance 2 - 362.56585693359375
+Match 2: Distance 1 - 132.10601806640625, Distance 2 - 150.4759063720703
+Match 3: Distance 1 - 263.2850036621094, Distance 2 - 292.84637451171875
+Match 4: Distance 1 - 301.4365539550781, Distance 2 - 310.5849304199219
+Match 5: Distance 1 - 316.3905944824219, Distance 2 - 329.4495544433594
+Match 6: Distance 1 - 190.596435546875, Distance 2 - 202.78067016601562
+Match 7: Distance 1 - 351.9190368652344, Distance 2 - 356.4996643066406
+Match 8: Distance 1 - 323.9444274902344, Distance 2 - 332.8377990722656
+Match 9: Distance 1 - 333.90716552734375, Distance 2 - 355.5066833496094
+Match 10: Distance 1 - 295.1389465332031, Distance 2 - 321.3938293457031
+480 matches passed Lowe's ratio test.
+131 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_66393650_5300086486.jpg_vs_95405900_917617676.jpg.png
+Found 2031 and 1981 keypoints in the images respectively.
+Found 2031 raw matches.
+Match 0: Distance 1 - 340.1337890625, Distance 2 - 373.5786437988281
+Match 1: Distance 1 - 349.0071716308594, Distance 2 - 374.4555969238281
+Match 2: Distance 1 - 184.68893432617188, Distance 2 - 188.07977294921875
+Match 3: Distance 1 - 323.2491149902344, Distance 2 - 347.2751159667969
+Match 4: Distance 1 - 310.34979248046875, Distance 2 - 347.45648193359375
+Match 5: Distance 1 - 353.5830993652344, Distance 2 - 367.2900695800781
+Match 6: Distance 1 - 266.8595275878906, Distance 2 - 328.712646484375
+Match 7: Distance 1 - 346.6886291503906, Distance 2 - 347.6708068847656
+Match 8: Distance 1 - 298.6703796386719, Distance 2 - 360.1027526855469
+Match 9: Distance 1 - 264.3974304199219, Distance 2 - 273.86859130859375
+Match 10: Distance 1 - 374.25927734375, Distance 2 - 378.1507568359375
+337 matches passed Lowe's ratio test.
+152 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_72728072_3851668437.jpg_vs_79727682_3945098100.jpg.png
+Found 2031 and 3014 keypoints in the images respectively.
+Found 2031 raw matches.
+Match 0: Distance 1 - 360.62445068359375, Distance 2 - 365.7663269042969
+Match 1: Distance 1 - 344.837646484375, Distance 2 - 358.7046203613281
+Match 2: Distance 1 - 146.9897918701172, Distance 2 - 168.8372039794922
+Match 3: Distance 1 - 312.8945617675781, Distance 2 - 318.8589172363281
+Match 4: Distance 1 - 284.6752624511719, Distance 2 - 371.9986572265625
+Match 5: Distance 1 - 354.9056091308594, Distance 2 - 377.286376953125
+Match 6: Distance 1 - 333.8262939453125, Distance 2 - 346.713134765625
+Match 7: Distance 1 - 283.14837646484375, Distance 2 - 345.4330749511719
+Match 8: Distance 1 - 313.3273010253906, Distance 2 - 316.72857666015625
+Match 9: Distance 1 - 217.517822265625, Distance 2 - 238.2288818359375
+Match 10: Distance 1 - 308.4736633300781, Distance 2 - 329.08966064453125
+244 matches passed Lowe's ratio test.
+54 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_72728072_3851668437.jpg_vs_92010501_7538765550.jpg.png
+Found 2031 and 2776 keypoints in the images respectively.
+Found 2031 raw matches.
+Match 0: Distance 1 - 362.49688720703125, Distance 2 - 362.88702392578125
+Match 1: Distance 1 - 370.76812744140625, Distance 2 - 371.3717956542969
+Match 2: Distance 1 - 201.50682067871094, Distance 2 - 224.43038940429688
+Match 3: Distance 1 - 313.5522155761719, Distance 2 - 331.1917724609375
+Match 4: Distance 1 - 334.056884765625, Distance 2 - 343.1705017089844
+Match 5: Distance 1 - 364.2581481933594, Distance 2 - 371.6382751464844
+Match 6: Distance 1 - 317.2459716796875, Distance 2 - 335.21337890625
+Match 7: Distance 1 - 319.4166564941406, Distance 2 - 329.9454650878906
+Match 8: Distance 1 - 328.22857666015625, Distance 2 - 344.20343017578125
+Match 9: Distance 1 - 206.1067657470703, Distance 2 - 228.83181762695312
+Match 10: Distance 1 - 353.5859069824219, Distance 2 - 360.3567810058594
+208 matches passed Lowe's ratio test.
+25 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_72728072_3851668437.jpg_vs_92199010_423632152.jpg.png
+Found 2031 and 2584 keypoints in the images respectively.
+Found 2031 raw matches.
+Match 0: Distance 1 - 393.81976318359375, Distance 2 - 397.24676513671875
+Match 1: Distance 1 - 352.1363220214844, Distance 2 - 375.2572326660156
+Match 2: Distance 1 - 175.8920135498047, Distance 2 - 177.4232177734375
+Match 3: Distance 1 - 296.2768859863281, Distance 2 - 340.3130798339844
+Match 4: Distance 1 - 339.7867126464844, Distance 2 - 344.7027587890625
+Match 5: Distance 1 - 357.5667724609375, Distance 2 - 361.3004150390625
+Match 6: Distance 1 - 262.21746826171875, Distance 2 - 322.56317138671875
+Match 7: Distance 1 - 315.9161376953125, Distance 2 - 346.3711853027344
+Match 8: Distance 1 - 331.555419921875, Distance 2 - 336.63482666015625
+Match 9: Distance 1 - 245.00204467773438, Distance 2 - 261.0632019042969
+Match 10: Distance 1 - 360.0874938964844, Distance 2 - 378.0621643066406
+389 matches passed Lowe's ratio test.
+124 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_72728072_3851668437.jpg_vs_95405900_917617676.jpg.png
+Found 1981 and 3014 keypoints in the images respectively.
+Found 1981 raw matches.
+Match 0: Distance 1 - 378.2274475097656, Distance 2 - 387.5667724609375
+Match 1: Distance 1 - 291.01031494140625, Distance 2 - 297.60040283203125
+Match 2: Distance 1 - 325.93096923828125, Distance 2 - 327.5942687988281
+Match 3: Distance 1 - 278.47442626953125, Distance 2 - 311.29888916015625
+Match 4: Distance 1 - 203.51904296875, Distance 2 - 280.0482177734375
+Match 5: Distance 1 - 267.69012451171875, Distance 2 - 286.59552001953125
+Match 6: Distance 1 - 254.30101013183594, Distance 2 - 296.5569152832031
+Match 7: Distance 1 - 293.54046630859375, Distance 2 - 313.6829528808594
+Match 8: Distance 1 - 348.6172790527344, Distance 2 - 357.3891296386719
+Match 9: Distance 1 - 331.9231872558594, Distance 2 - 337.5025939941406
+Match 10: Distance 1 - 354.4530944824219, Distance 2 - 373.70977783203125
+309 matches passed Lowe's ratio test.
+138 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_79727682_3945098100.jpg_vs_92010501_7538765550.jpg.png
+Found 1981 and 2776 keypoints in the images respectively.
+Found 1981 raw matches.
+Match 0: Distance 1 - 405.1814270019531, Distance 2 - 407.69964599609375
+Match 1: Distance 1 - 307.4654541015625, Distance 2 - 312.32196044921875
+Match 2: Distance 1 - 273.6439208984375, Distance 2 - 278.3127746582031
+Match 3: Distance 1 - 330.5011291503906, Distance 2 - 335.0044860839844
+Match 4: Distance 1 - 241.1907958984375, Distance 2 - 242.07643127441406
+Match 5: Distance 1 - 317.72943115234375, Distance 2 - 318.0282897949219
+Match 6: Distance 1 - 287.55694580078125, Distance 2 - 294.7626037597656
+Match 7: Distance 1 - 322.2095642089844, Distance 2 - 325.41357421875
+Match 8: Distance 1 - 362.6017150878906, Distance 2 - 363.19415283203125
+Match 9: Distance 1 - 370.74249267578125, Distance 2 - 386.8332824707031
+Match 10: Distance 1 - 340.84747314453125, Distance 2 - 363.7994079589844
+258 matches passed Lowe's ratio test.
+33 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_79727682_3945098100.jpg_vs_92199010_423632152.jpg.png
+Found 1981 and 2584 keypoints in the images respectively.
+Found 1981 raw matches.
+Match 0: Distance 1 - 373.98797607421875, Distance 2 - 392.7747497558594
+Match 1: Distance 1 - 306.5044860839844, Distance 2 - 318.41796875
+Match 2: Distance 1 - 248.13101196289062, Distance 2 - 313.0255432128906
+Match 3: Distance 1 - 311.5332946777344, Distance 2 - 337.2966003417969
+Match 4: Distance 1 - 191.41839599609375, Distance 2 - 248.05442810058594
+Match 5: Distance 1 - 279.30987548828125, Distance 2 - 313.1533203125
+Match 6: Distance 1 - 252.4559326171875, Distance 2 - 268.5870361328125
+Match 7: Distance 1 - 311.1800231933594, Distance 2 - 311.5028076171875
+Match 8: Distance 1 - 333.634521484375, Distance 2 - 335.97320556640625
+Match 9: Distance 1 - 352.05682373046875, Distance 2 - 377.4294738769531
+Match 10: Distance 1 - 339.99853515625, Distance 2 - 386.90826416015625
+300 matches passed Lowe's ratio test.
+116 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_79727682_3945098100.jpg_vs_95405900_917617676.jpg.png
+Found 3014 and 2776 keypoints in the images respectively.
+Found 3014 raw matches.
+Match 0: Distance 1 - 305.6991882324219, Distance 2 - 351.8863525390625
+Match 1: Distance 1 - 372.95843505859375, Distance 2 - 378.9366760253906
+Match 2: Distance 1 - 309.0873718261719, Distance 2 - 365.39019775390625
+Match 3: Distance 1 - 334.78948974609375, Distance 2 - 356.704345703125
+Match 4: Distance 1 - 286.06817626953125, Distance 2 - 374.1617431640625
+Match 5: Distance 1 - 352.8313903808594, Distance 2 - 354.92816162109375
+Match 6: Distance 1 - 319.5684509277344, Distance 2 - 362.3630676269531
+Match 7: Distance 1 - 245.12242126464844, Distance 2 - 254.3167266845703
+Match 8: Distance 1 - 381.1705627441406, Distance 2 - 386.37158203125
+Match 9: Distance 1 - 380.6744079589844, Distance 2 - 394.5288391113281
+Match 10: Distance 1 - 348.7406005859375, Distance 2 - 395.1885681152344
+236 matches passed Lowe's ratio test.
+11 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_92010501_7538765550.jpg_vs_92199010_423632152.jpg.png
+Found 3014 and 2584 keypoints in the images respectively.
+Found 3014 raw matches.
+Match 0: Distance 1 - 318.4195251464844, Distance 2 - 361.48443603515625
+Match 1: Distance 1 - 350.292724609375, Distance 2 - 389.1529235839844
+Match 2: Distance 1 - 342.1505432128906, Distance 2 - 364.1112365722656
+Match 3: Distance 1 - 370.77215576171875, Distance 2 - 381.7420654296875
+Match 4: Distance 1 - 328.464599609375, Distance 2 - 341.2477111816406
+Match 5: Distance 1 - 373.84088134765625, Distance 2 - 396.2864990234375
+Match 6: Distance 1 - 361.0373840332031, Distance 2 - 379.7314758300781
+Match 7: Distance 1 - 227.68618774414062, Distance 2 - 246.6414337158203
+Match 8: Distance 1 - 359.2478332519531, Distance 2 - 365.6241149902344
+Match 9: Distance 1 - 307.6605224609375, Distance 2 - 404.58990478515625
+Match 10: Distance 1 - 380.888427734375, Distance 2 - 389.048828125
+235 matches passed Lowe's ratio test.
+44 matches survived the RANSAC filter.
+Saved matching visualization to output/feature_matching/british_museum/matches_92010501_7538765550.jpg_vs_95405900_917617676.jpg.png
+Found 2776 and 2584 keypoints in the images respectively.
+Found 2776 raw matches.
+Match 0: Distance 1 - 221.6776885986328, Distance 2 - 240.02499389648438
+Match 1: Distance 1 - 246.1584930419922, Distance 2 - 254.73712158203125
+Match 2: Distance 1 - 317.74517822265625, Distance 2 - 325.3167724609375
+Match 3: Distance 1 - 437.05035400390625, Distance 2 - 456.34527587890625
+Match 4: Distance 1 - 286.5937805175781, Distance 2 - 359.9222106933594
+Match 5: Distance 1 - 279.89105224609375, Distance 2 - 290.3153381347656
+Match 6: Distance 1 - 325.1122741699219, Distance 2 - 366.9523010253906
+Match 7: Distance 1 - 328.19049072265625, Distance 2 - 339.8043518066406
+Match 8: Distance 1 - 255.89842224121094, Distance 2 - 271.17706298828125
+Match 9: Distance 1 - 326.2882080078125, Distance 2 - 364.8232421875
+Match 10: Distance 1 - 348.2140197753906, Distance 2 - 368.2689208984375
+248 matches passed Lowe's ratio test.
+33 matches survived the RANSAC filter.

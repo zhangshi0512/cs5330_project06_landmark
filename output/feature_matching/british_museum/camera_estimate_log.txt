@@ -1,0 +1,49 @@
+Not enough inliers for image pair: 27732591_4349424252.jpg - 92199010_423632152.jpg. Skipping.
+Processing image: 09362272_3871121693.jpg
+Number of object points: 510
+Number of image points: 510
+Shape of image points for current image: (510, 1, 2)
+Processing image: 18149355_2532015166.jpg
+Number of object points: 2144
+Number of image points: 2144
+Shape of image points for current image: (2144, 1, 2)
+Processing image: 21464353_8770120507.jpg
+Number of object points: 1624
+Number of image points: 1624
+Shape of image points for current image: (1624, 1, 2)
+Processing image: 27732591_4349424252.jpg
+Number of object points: 498
+Number of image points: 498
+Shape of image points for current image: (498, 1, 2) 
+Processing image: 31192053_99847530.jpg
+Number of object points: 2008
+Number of image points: 2008
+Shape of image points for current image: (2008, 1, 2)
+Processing image: 53631371_144323144.jpg
+Number of object points: 2140
+Number of image points: 2140
+Shape of image points for current image: (2140, 1, 2)
+Processing image: 66393650_5300086486.jpg
+Number of object points: 1965
+Number of image points: 1965
+Shape of image points for current image: (1965, 1, 2)
+Processing image: 72728072_3851668437.jpg
+Number of object points: 1426
+Number of image points: 1426
+Shape of image points for current image: (1426, 1, 2)
+Processing image: 79727682_3945098100.jpg
+Number of object points: 1779
+Number of image points: 1779
+Shape of image points for current image: (1779, 1, 2)
+Processing image: 92010501_7538765550.jpg
+Number of object points: 841
+Number of image points: 841
+Shape of image points for current image: (841, 1, 2)
+Processing image: 92199010_423632152.jpg
+Number of object points: 414
+Number of image points: 414
+Shape of image points for current image: (414, 1, 2)
+Processing image: 95405900_917617676.jpg
+Number of object points: 1133
+Number of image points: 1133
+Shape of image points for current image: (1133, 1, 2)
