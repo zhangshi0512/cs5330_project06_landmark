@@ -150,7 +150,10 @@ def estimate_camera_parameters(matches, dimensions):
 
 def save_camera_params_to_file(camera_params, filename):
     # Saves the estimated camera parameters to a CSV file.
-    with open(filename, 'w') as file:
+    with open(filename, 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(['Image', 'rvec1', 'rvec2',
+                        'rvec3', 'tvec1', 'tvec2', 'tvec3'])
         for image, params in camera_params.items():
             r_mat, tvec = params['r_mat'], params['tvec']
             rvec, _ = cv2.Rodrigues(r_mat)
