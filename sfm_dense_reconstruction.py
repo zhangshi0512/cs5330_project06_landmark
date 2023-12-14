@@ -17,9 +17,8 @@ def run_dense_reconstruction(dataset_path):
         subprocess.run(cmd, shell=True, check=True)
 
 
-def main():
+def main(dataset_name):
     # Define the path to your dataset
-    dataset_name = 'lund'  # Replace with your dataset name
     opensfm_root = './OpenSfM'  # Replace with your OpenSfM installation path
     dataset_path = os.path.join(opensfm_root, 'data', dataset_name)
 
