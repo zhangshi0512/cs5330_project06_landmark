@@ -115,9 +115,17 @@ This project aims to reconstruct 3D scenes from a collection of 2D images. It in
 
 ## Live Demo
 
-For Part 1:
+For Part 1: http://i.imgur.com/irmwEpzh.gif
 
 ![Live Demo of Local Pipeline](http://i.imgur.com/irmwEpzh.gif)
+
+For Part 2: http://i.imgur.com/WfBpl1jh.gif
+
+![Live Demo of Local Pipeline with OpenSfM Integration](http://i.imgur.com/WfBpl1jh.gif)
+
+For Part 3: https://i.imgur.com/xf8nuuO.gif
+
+![Live Demo of Kaggle Notebook with Pycolmap Library](https://i.imgur.com/xf8nuuO.gif)
 
 ## Acknowledgement
 
